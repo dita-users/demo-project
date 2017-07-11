@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="de-DE">
+	<title>Fehlerbehebung</title>
+	<topicref href="tr_fehlerbehebung.xml" navtitle="Fehlerbehebung " format="dita" type="troubleshooting">
+		<topicref href="tr_fehler-beluefter-t1.xml" navtitle="Fehler Beluefter T1 " format="dita" type="troubleshooting"/>
+		<topicref href="tr_fehler-beluefter-t2.xml" navtitle="Fehler Beluefter T2 " format="dita" type="troubleshooting"/>
+		<topicref href="tr_trinkwasser-nicht-offen.xml" navtitle="Trinkwasser nicht offen " format="dita" type="troubleshooting"/>
+		<topicref href="tr_stoerung-ext-dea.xml" navtitle="Stoerung ext. DEA " format="dita" type="troubleshooting"/>
+		<topicref href="tr_sammelstoerung.xml" navtitle="Sammelstoerung " format="dita" type="troubleshooting"/>
+		<topicref href="tr_fehler-foerderpumpe-t1.xml" navtitle="Fehler Foerderpumpe T1 " format="dita" type="troubleshooting"/>
+		<topicref href="tr_fehler-membran-t2.xml" navtitle="Fehler Membran T2 " format="dita" type="troubleshooting"/>
+		<topicref href="tr_fehler-filtration-t2.xml" navtitle="Fehler Filtration T2 " format="dita" type="troubleshooting"/>
+		<topicref href="tr_fehler-schwimmer-1sx.xml" navtitle="Fehler Schwimmer 1SX " format="dita" type="troubleshooting"/>
+		<topicref href="tr_fehler-schwimmer-9sx.xml" navtitle="Fehler Schwimmer 9SX " format="dita" type="troubleshooting"/>
+		<topicref href="tr_speicherfehler.xml" navtitle="Speicherfehler " format="dita" type="troubleshooting"/>
+	</topicref>
+</map>

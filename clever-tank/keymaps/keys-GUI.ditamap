@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+	<title>keymap: Grafiken</title>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>allgemeines</navtitle>
+		</topicmeta>
+
+		<!--<keydef keys="" href="" format="PNG" navtitle="">
+			<topicmeta>
+				<navtitle></navtitle>
+				<linktext></linktext>
+			</topicmeta>
+		</keydef>-->
+
+	</topicgroup>
+</map>

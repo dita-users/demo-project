@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="de-DE">
+	<title>Bedienungsanleitungen</title>
+	<topicref href="t_bedienungsanleitungen.xml" navtitle="Bedienungsanleitungen " format="dita" type="task">
+		<topicref href="t_normaler-betrieb.xml" navtitle="Normaler Betrieb " format="dita" type="task"/>
+		<topicref href="t_urlaubsmodus.xml" navtitle="Urlaubsmodus " format="dita" type="task"/>
+		<topicref href="t_sommer--und-winterbetrieb.xml" navtitle="Sommer- und Winterbetrieb " format="dita" type="task"/>
+		<topicref href="t_datum-und-zeit-umstellen.xml" navtitle="Datum und Zeit umstellen " format="dita" type="task"/>
+		<topicref href="r_bedienelemente.xml" navtitle="Bedienelemente " format="dita" type="reference">
+			<topicref href="r_schaltschrank.xml" navtitle="Schaltschrank" format="dita" type="reference"/>
+			<topicref href="r_steuerung.xml" navtitle="Steuerung" format="dita" type="reference"/>
+		</topicref>
+	</topicref>
+</map>

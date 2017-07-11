@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="de-DE">
+	<title>Installationsanleitung</title>
+	<topicref href="t_installationsanleitung.xml" navtitle="Installationsanleitung " format="dita" type="task">
+		<topicref href="r_sicherheitshinweise.xml" navtitle="Sicherheitshinweise " format="dita" type="reference"/>
+		<topicref href="r_checkliste-installationsvoraussetzung-grauwasseranlage.xml" navtitle="Checkliste Installationsvoraussetzung Grauwasseranlage " format="dita" type="reference"/>
+		<topicref href="r_aufstellraum.xml" navtitle="Aufstellraum" format="dita" type="reference"/>
+		<topicref href="t_montage.xml" navtitle="Montage" format="dita" type="task"/>
+		<topicref href="t_erstinbetriebnahme.xml" navtitle="Erstinbetriebnahme " format="dita" type="task"/>
+	</topicref>
+</map>

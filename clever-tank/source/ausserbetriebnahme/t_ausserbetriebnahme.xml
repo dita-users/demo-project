@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="de-DE" id="t_außerbetriebnahme">
+	<title>Außerbetriebnahme </title>
+	<taskbody>
+		<context>
+			<p/>
+		</context>
+		<steps>
+			<step>
+				<cmd/>
+			</step>
+		</steps>
+	</taskbody>
+</task>

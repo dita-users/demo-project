@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+	<title>keymap: Produkt-Keys CT6000</title>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Produkt</navtitle>
+		</topicmeta>
+		<keydef keys="prod-name">
+			<topicmeta>
+				<keywords>
+					<keyword>CleverTank 6000</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="prod-short">
+			<topicmeta>
+				<keywords>
+					<keyword>CT6000</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle/>
+		</topicmeta>
+		<!--<keydef keys="">
+			<topicmeta>
+				<keywords>
+					<keyword></keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>-->
+
+
+	</topicgroup>
+
+</map>

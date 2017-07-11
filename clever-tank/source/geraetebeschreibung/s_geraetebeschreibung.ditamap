@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="de-DE">
+	<title>Gerätebeschreibung</title>
+	<topicref href="c_geraetebeschreibung.xml" navtitle="Geraetebeschreibung " format="dita" type="concept">
+		<topicref href="r_baugruppen.xml" navtitle="Baugruppen" format="dita" type="reference"/>
+		<topicref href="r_lieferumfang.xml" navtitle="Lieferumfang" format="dita" type="reference"/>
+		<topicref href="r_zeichnung.xml" navtitle="Zeichnung" format="dita" type="reference"/>
+	</topicref>
+</map>

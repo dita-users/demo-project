@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="de-DE">
+	<title>Außerbetriebnahme</title>
+	<topicref href="t_ausserbetriebnahme.xml" navtitle="Ausserbetriebnahme " format="dita" type="task">
+		<topicref href="r_sicherheitshinweise.xml" navtitle="Sicherheitshinweise " format="dita" type="reference"/>
+		<topicref href="t_entsorgung.xml" navtitle="Entsorgung " format="dita" type="task"/>
+	</topicref>
+</map>

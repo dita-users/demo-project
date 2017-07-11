@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+	<title>keymap: Produkt-Keys</title>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Produkt</navtitle>
+		</topicmeta>
+		<keydef keys="prod-series">
+			<topicmeta>
+				<keywords>
+					<keyword>CleverTank</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Unternehmen</navtitle>
+		</topicmeta>
+		<keydef keys="company-name">
+			<topicmeta>
+				<keywords>
+					<keyword>Wassertanktechnick GmbH</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="company-short">
+			<topicmeta>
+				<keywords>
+					<keyword>WTT</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+	</topicgroup>
+
+</map>

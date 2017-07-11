@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="de-DE">
+	<title>CleverTank Betriebsanleitung</title>
+	<!-- #### KEYS SECTION #### -->
+	<mapref href="keymaps/keys-allg.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-GUI.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT1500.ditamap" product="ct1500" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT3000.ditamap" product="ct3000" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT4500.ditamap" product="ct4500" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT6000.ditamap" product="ct6000" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT10000.ditamap" product="ct10000" format="ditamap" processing-role="resource-only"/>
+	<!-- #### CONTENT #### -->
+	<mapref href="source/sicherheitshinweise/s_sicherheitshinweise.ditamap"/>
+	<mapref href="source/geraetebeschreibung/s_geraetebeschreibung.ditamap"/>
+	<mapref href="source/installationsanleitung/s_installationsanleitung.ditamap"/>
+	<mapref href="source/bedienungsanleitungen/s_bedienungsanleitungen.ditamap"/>
+	<mapref href="source/inspektion-und-wartung/s_inspektion-und-wartung.ditamap"/>
+	<mapref href="source/fehlerbehebung/s_fehlerbehebung.ditamap"/>
+	<mapref href="source/ausserbetriebnahme/s_ausserbetriebnahme.ditamap"/>
+	<mapref href="source/technische-daten/s_technische-daten.ditamap"/>
+	<mapref href="source/garantie/s_garantie.ditamap"/>
+	<mapref href="source/kontakt/s_kontakt.ditamap"/>
+	<mapref href="source/ce-konformitaetserklaerung/s_ce-konformitaetserklaerung.ditamap"/>
+	<mapref href="source/anhang/s_anhang.ditamap"/>
+	<mapref href="source/glossar/s_glossar.ditamap"/>
+</map>
