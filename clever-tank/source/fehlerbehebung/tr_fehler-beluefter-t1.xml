@@ -3,22 +3,8 @@
 <troubleshooting xml:lang="de-DE" id="trbl_fehler-beluefter-t1">
 	<title>Fehler Beluefter T1</title>
 	<troublebody>
-		<condition>
-			<p/>
-		</condition>
-		<troubleSolution>
-			<cause>
-				<title/>
-				<p/>
-			</cause>
-			<remedy>
-				<responsibleParty/>
-				<steps-unordered>
-					<step>
-						<cmd/>
-					</step>
-				</steps-unordered>
-			</remedy>
-		</troubleSolution>
+		<troubleSolution conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_trbl-leaking-tube"/>
+		<troubleSolution conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_trbl-def-sensor"/>
+		<troubleSolution conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_trbl-def-compr"/>
 	</troublebody>
 </troubleshooting>

@@ -10,6 +10,8 @@
 	<mapref href="keymaps/keys-CT4500.ditamap" product="ct4500" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-CT6000.ditamap" product="ct6000" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-CT10000.ditamap" product="ct10000" format="ditamap" processing-role="resource-only"/>
+	<!-- #### WAREHOUSE SECTION (conref pool) #### -->
+	<topicref href="source/warehouse/reuse_trbl-elements.xml" format="dita" processing-role="resource-only"/>
 	<!-- #### CONTENT #### -->
 	<mapref href="source/sicherheitshinweise/s_sicherheitshinweise.ditamap"/>
 	<mapref href="source/geraetebeschreibung/s_geraetebeschreibung.ditamap"/>

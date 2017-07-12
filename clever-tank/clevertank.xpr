@@ -333,6 +333,21 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>clevertank.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>DITA Map PDF - CleverTank</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>${cfn}.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -634,7 +649,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String></String>
+                                            <null/>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -645,10 +660,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <String>${frameworksDir}\dita\DITA-OT\plugins\com.oxygenxml.webhelp\predefined-skins\dita\oxygen\skin.css</String>
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -702,21 +717,27 @@
                                                 <String>all</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String>none</String>
+                                                <null/>
                                             </field>
                                             <field name="type">
                                                 <Integer>4</Integer>
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>none</String>
                                                     <String>all</String>
+                                                    <String>noparent</String>
                                                     <String>nofamily</String>
+                                                    <null/>
                                                 </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -737,13 +758,16 @@
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
+                                                    <null/>
                                                 </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -764,13 +788,16 @@
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
+                                                    <null/>
                                                 </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -811,7 +838,7 @@
                                                 <String>(c) 2016 thinkDITA</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String></String>
+                                                <null/>
                                             </field>
                                             <field name="type">
                                                 <Integer>0</Integer>
