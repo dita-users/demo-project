@@ -26,4 +26,11 @@
 	<mapref href="source/ce-konformitaetserklaerung/s_ce-konformitaetserklaerung.ditamap"/>
 	<mapref href="source/anhang/s_anhang.ditamap"/>
 	<mapref href="source/glossar/s_glossar.ditamap"/>
+	<!-- #### RELATIONSHIPS TABLE #### -->
+	<reltable>
+		<relrow>
+			<relcell linking="sourceonly"><topicref keyref="tr_fehler-membran-t2"/></relcell>
+			<relcell><topicref keyref="wartung"/></relcell>
+		</relrow>
+	</reltable>
 </map>

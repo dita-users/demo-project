@@ -3,21 +3,22 @@
 <troubleshooting xml:lang="de-DE" id="trbl_sammelstoerung">
 	<title>Sammelstoerung</title>
 	<troublebody>
-		<condition>
-			<p/>
-		</condition>
 		<troubleSolution>
 			<cause>
-				<title/>
-				<p/>
+				<title>Auslösen einer Sicherung im Schaltschrank</title>
 			</cause>
 			<remedy>
-				<responsibleParty/>
-				<steps-unordered>
+				<steps>
 					<step>
-						<cmd/>
+						<cmd>siehe Schaltplan</cmd>
 					</step>
-				</steps-unordered>
+					<step>
+						<cmd>Stromkreis kontrollieren</cmd>
+					</step>
+					<step>
+						<cmd>elektrisch prüfen</cmd>
+					</step>
+				</steps>
 			</remedy>
 		</troubleSolution>
 	</troublebody>

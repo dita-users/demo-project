@@ -3,19 +3,17 @@
 <troubleshooting xml:lang="de-DE" id="trbl_fehler-membran-t2">
 	<title>Fehler Membran T2</title>
 	<troublebody>
-		<condition>
-			<p/>
-		</condition>
 		<troubleSolution>
 			<cause>
-				<title/>
-				<p/>
+				<title>Sensor an der Saugseite zeigt einen zu hohen Unterdruck an</title>
 			</cause>
 			<remedy>
-				<responsibleParty/>
 				<steps-unordered>
 					<step>
-						<cmd/>
+						<cmd>Schlauch auf Knickstellen kontrollieren</cmd>
+					</step>
+					<step>
+						<cmd>Membran hat sich zugesetzt. Bitte den Punkt Wartung in der Bedienungsanleitung beachten.</cmd>
 					</step>
 				</steps-unordered>
 			</remedy>

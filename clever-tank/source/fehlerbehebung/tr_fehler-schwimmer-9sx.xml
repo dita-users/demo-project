@@ -8,14 +8,14 @@
 		</condition>
 		<troubleSolution>
 			<cause>
-				<title/>
-				<p/>
+				<title>unlogischer Reihenfolge der Schwimmer im Tank2/Vorratsbehälter</title>
+				<p>z.B.: wenn 9S5 aus ist kann 9S6 nicht an sein</p>
 			</cause>
 			<remedy>
 				<responsibleParty/>
 				<steps-unordered>
 					<step>
-						<cmd/>
+						<cmd>Schwimmer auf Verschmutzung kontrollieren oder elektrisch Prüfen</cmd>
 					</step>
 				</steps-unordered>
 			</remedy>

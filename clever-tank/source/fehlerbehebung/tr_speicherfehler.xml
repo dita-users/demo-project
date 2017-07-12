@@ -3,19 +3,14 @@
 <troubleshooting xml:lang="de-DE" id="trbl_speicherfehler">
 	<title>Speicherfehler</title>
 	<troublebody>
-		<condition>
-			<p/>
-		</condition>
 		<troubleSolution>
 			<cause>
-				<title/>
-				<p/>
+				<title>Speicherbaustein defekt</title>
 			</cause>
 			<remedy>
-				<responsibleParty/>
 				<steps-unordered>
 					<step>
-						<cmd/>
+						<cmd>Anlage neu Starten</cmd>
 					</step>
 				</steps-unordered>
 			</remedy>

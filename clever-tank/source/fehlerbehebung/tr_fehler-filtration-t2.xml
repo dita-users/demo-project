@@ -3,22 +3,25 @@
 <troubleshooting xml:lang="de-DE" id="trbl_fehler-filtration-t2">
 	<title>Fehler Filtration T2</title>
 	<troublebody>
-		<condition>
-			<p/>
-		</condition>
 		<troubleSolution>
 			<cause>
-				<title/>
-				<p/>
+				<title>Kein Durchfluss an der Filtrationspumpe</title>
 			</cause>
 			<remedy>
-				<responsibleParty/>
 				<steps-unordered>
 					<step>
-						<cmd/>
+						<cmd>Filtrationspumpe elektrisch Prüfen</cmd>
 					</step>
 				</steps-unordered>
 			</remedy>
+			<remedy><steps-unordered>
+				<step>
+					<cmd>Durchflusswächter kontrollieren</cmd>
+				</step>
+				<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
+					<cmd/>
+				</step>
+			</steps-unordered></remedy>
 		</troubleSolution>
 	</troublebody>
 </troubleshooting>

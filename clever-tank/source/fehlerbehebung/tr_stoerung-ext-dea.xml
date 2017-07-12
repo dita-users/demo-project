@@ -3,19 +3,14 @@
 <troubleshooting xml:lang="de-DE" id="trbl_stoerung-ext-dea">
 	<title>Stoerung ext. DEA</title>
 	<troublebody>
-		<condition>
-			<p/>
-		</condition>
 		<troubleSolution>
 			<cause>
-				<title/>
-				<p/>
+				<title>Fehlermeldung bei Verwendung einer externen DEA</title>
 			</cause>
 			<remedy>
-				<responsibleParty/>
 				<steps-unordered>
 					<step>
-						<cmd/>
+						<cmd>siehe Handbuch externe DEA</cmd>
 					</step>
 				</steps-unordered>
 			</remedy>

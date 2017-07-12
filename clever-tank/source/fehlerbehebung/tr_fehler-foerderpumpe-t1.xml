@@ -3,18 +3,37 @@
 <troubleshooting xml:lang="de-DE" id="trbl_fehler-foerderpumpe-t1">
 	<title>Fehler Foerderpumpe T1</title>
 	<troublebody>
-		<condition>
-			<p/>
-		</condition>
 		<troubleSolution>
 			<cause>
-				<title/>
-				<p/>
+				<title>Sensor defekt</title>
 			</cause>
 			<remedy>
-				<responsibleParty/>
 				<steps-unordered>
-					<step>
+					<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
+						<cmd/>
+					</step>
+				</steps-unordered>
+			</remedy>
+		</troubleSolution>
+		<troubleSolution>
+			<cause>
+				<title>Pumpe Fördert nicht</title>
+			</cause>
+			<remedy>
+				<steps-unordered>
+					<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
+						<cmd/>
+					</step>
+				</steps-unordered>
+			</remedy>
+		</troubleSolution>
+		<troubleSolution>
+			<cause>
+				<title>Undichter Schlauch</title>
+			</cause>
+			<remedy>
+				<steps-unordered>
+					<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
 						<cmd/>
 					</step>
 				</steps-unordered>

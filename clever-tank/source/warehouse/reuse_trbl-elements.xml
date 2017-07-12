@@ -9,7 +9,7 @@
 			</cause>
 			<remedy>
 				<steps-unordered>
-					<step>
+					<step id="reuse_step-el-test">
 						<cmd>elektrisch prüfen</cmd>
 					</step>
 				</steps-unordered>
@@ -24,8 +24,8 @@
 					<step>
 						<cmd>Sensor kontrollieren, ggf. austauschen</cmd>
 					</step>
-					<step>
-						<cmd>elektrisch prüfen</cmd>
+					<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
+						<cmd/>
 					</step>
 				</steps-unordered>
 			</remedy>
@@ -39,8 +39,8 @@
 					<step>
 						<cmd>Versorgungsspannung im Handbetrieb kontrollieren</cmd>
 					</step>
-					<step>
-						<cmd>elektrisch prüfen</cmd>
+					<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
+						<cmd/>
 					</step>
 				</steps-unordered>
 			</remedy>

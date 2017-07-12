@@ -3,18 +3,17 @@
 <troubleshooting xml:lang="de-DE" id="trbl_fehler-schwimmer-1sx">
 	<title>Fehler Schwimmer 1SX</title>
 	<troublebody>
-		<condition>
-			<p/>
-		</condition>
 		<troubleSolution>
 			<cause>
-				<title/>
-				<p/>
+				<title>unlogischer Reihenfolge der Schwimmer im Tank3/Vorratsbehälter</title>
+				<p>z.B.: wenn 1S2 aus ist kann 1S3 nicht an sein</p>
 			</cause>
 			<remedy>
-				<responsibleParty/>
 				<steps-unordered>
 					<step>
+						<cmd>Schwimmer auf Verschmutzung kontrollieren</cmd>
+					</step>
+					<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
 						<cmd/>
 					</step>
 				</steps-unordered>
