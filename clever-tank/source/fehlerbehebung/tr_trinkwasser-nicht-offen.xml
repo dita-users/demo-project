@@ -3,19 +3,50 @@
 <troubleshooting xml:lang="de-DE" id="trbl_trinkwasser-nicht-offen">
 	<title>Trinkwasser nicht offen</title>
 	<troublebody>
-		<condition>
-			<p/>
-		</condition>
 		<troubleSolution>
 			<cause>
-				<title/>
-				<p/>
+				<title>Undichtigkeit in der Druckleitung</title>
 			</cause>
 			<remedy>
-				<responsibleParty/>
 				<steps-unordered>
 					<step>
-						<cmd/>
+						<cmd>Druckleitung kontrollieren</cmd>
+					</step>
+				</steps-unordered>
+			</remedy>
+		</troubleSolution>
+		<troubleSolution>
+			<cause>
+				<title>Fehlerhaft angeschlossen</title>
+			</cause>
+			<remedy>
+				<steps-unordered>
+					<step>
+						<cmd>Klemmplan kontrollieren</cmd>
+					</step>
+					<step>
+						<cmd>electrisch prüfen</cmd>
+					</step>
+				</steps-unordered>
+			</remedy>
+		</troubleSolution>
+		<troubleSolution>
+			<cause><title>Fehler in der Durchflussüberwachung</title></cause>
+			<remedy><steps-unordered>
+				<step>
+					<cmd>Durchflusswächter kontrollieren</cmd>
+				</step>
+				<step>
+					<cmd>electrisch prüfen</cmd>
+				</step>
+			</steps-unordered></remedy>
+		</troubleSolution>
+		<troubleSolution>
+			<cause><title>Kugelhahn geschlossen</title></cause>
+			<remedy>
+				<steps-unordered>
+					<step>
+						<cmd>Kugelhahn öffnen</cmd>
 					</step>
 				</steps-unordered>
 			</remedy>
