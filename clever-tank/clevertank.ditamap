@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> 
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
 <map xml:lang="de-DE">
-	<title>CleverTank Betriebsanleitung</title>
+	<title><keyword keyref="prod-name"/> Betriebsanleitung</title>
 	<!-- #### KEYS SECTION #### -->
 	<mapref href="keymaps/keys-allg.ditamap" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-GUI.ditamap" format="ditamap" processing-role="resource-only"/>
