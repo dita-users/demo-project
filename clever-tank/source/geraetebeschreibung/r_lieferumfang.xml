@@ -1,10 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="de-DE" id="r_lieferumfang">
-  <title>Lieferumfang</title>
-  <refbody>
-	<section>
-		<p></p>
-	</section>
-  </refbody>
+	<title>Lieferumfang</title>
+	<refbody>
+		<section>
+			<p>Die Grauwasseranlage <keyword keyref="prod-name"/> besteht aus folgenden Komponenten:</p>
+		</section>
+		<section otherprops="tank-gw">
+			<title>Baugruppe <keyword keyref="group-num-gw"/></title>
+			<ul>
+				<li>Behälter</li>
+				<li>Belüfter</li>
+				<li>Förderpumpe</li>
+			</ul>
+		</section>
+		<section>
+			<title>Baugruppe <keyword keyref="group-num-f"/></title>
+			<ul>
+				<li>Behälter</li>
+				<li>Membraneinheit</li>
+				<li>Belüfter</li>
+				<li>Permeatpumpe</li>
+			</ul>
+		</section>
+		<section>
+			<title>Baugruppe <keyword keyref="group-num-sw"/></title>
+			<ul>
+				<li>Behälter</li>
+				<li>Trinkwassernachspeisung</li>
+			</ul>
+		</section>
+		<section>
+			<title>Baugruppe <keyword keyref="group-num-ctrl"/></title>
+			<ul>
+				<li>Steuerung</li>
+			</ul>
+		</section>
+	</refbody>
 </reference>
