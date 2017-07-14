@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept xml:lang="de-DE" id="c_geraetebeschreibung">
-	<title>Geraetebeschreibung </title>
+	<title>Gerätebeschreibung </title>
 	<conbody>
 		<p>Die Anlagen sind zur mehrstufigen Aufbereitung von Grauwasser und Bereitstellung von Betriebswasser vorgesehen. Die Anlagen bestehen aus mehreren Baugruppen.</p>
 		<fig>
@@ -16,8 +16,10 @@
 						keyref="prod-series"/> Membranmodulen.</p></li>
 			<li><p><b>Baugruppe <keyword keyref="group-num-sw"/>: </b>Betriebswasserspeicher</p><p>In der nächsten Baugruppe wird das filtrierte Grauwasser als Betriebswasser gespeichert.
 					Zusätzlich verfügt der letzte Tank über eine Trinkwassernachspeisung um die Versorgung des Betriebswassernetzes sicher zu stellen.</p></li>
-			<li><p><b>Baugruppe <keyword keyref="group-num-ctrl"/>: </b>Steuerung</p><p>Die <keyword keyref="prod-series"/> Grauwasseranlagen sind mit einer vollautomatischen Steuerung-Baugruppe
-					zum Steuern und überwachen ausgestattet. Sie verfügt über einen potential freien Kontakt zur Einbindung von Störmeldungen in die Gebäudetechnik.</p></li>
+			<li><p><b>Baugruppe <keyword keyref="group-num-ctrl"/>: </b>Steuerung</p><p>Die <keyword keyref="prod-series"/> Grauwasseranlagen sind mit einer vollautomatischen
+					Steuerung-Baugruppe zum Steuern und Überwachen ausgestattet. Sie verfügt über
+					einen potential freien Kontakt zur Einbindung von Störmeldungen in die
+					Gebäudetechnik.</p></li>
 		</ul>
 		<p>Je nach Anlagentyp können die Tankvolumen variieren.</p>
 	</conbody>
