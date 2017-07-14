@@ -3459,7 +3459,7 @@
                     </entry>
                     <entry>
                         <String>spell.check.learned.words.custom.folder</String>
-                        <String>C:\Users\fjk\Documents\GitHub\demo-project\clever-tank\learnedWords</String>
+                        <String>${pd}\learnedWords</String>
                     </entry>
                     <entry>
                         <String>spell.check.load.learned.words.from.default.folder</String>

@@ -10,7 +10,7 @@
 			<remedy>
 				<steps-unordered>
 					<step id="reuse_step-el-test">
-						<cmd>elektrisch prüfen</cmd>
+						<cmd>Elektrisch prüfen</cmd>
 					</step>
 				</steps-unordered>
 			</remedy>
