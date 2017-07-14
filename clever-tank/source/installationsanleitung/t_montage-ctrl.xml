@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="de-DE" id="hxq_xjb_41b">
+	<title>Anlage an Schaltschrank anschließen</title>
+	<taskbody>
+		<prereq><p>Alle aufgeführten Verbindungen wurden fachgerecht installiert.</p></prereq>
+		<steps>
+			<step>
+				<cmd>Kabel von Baugruppen <keyword keyref="group-num-before-sw"/> und <keyword keyref="group-num-sw"/> an den Schaltschrank anschließen (siehe Schaltplan/Klemmplan, Bezeichnung
+					beachten).</cmd>
+			</step>
+			<step>
+				<cmd>Die Anlage mit Grauwasser füllen.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

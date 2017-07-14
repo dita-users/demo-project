@@ -117,7 +117,7 @@
 		<keydef keys="gw-tanks">
 			<topicmeta>
 				<keywords>
-					<keyword>1</keyword>
+					<keyword>2</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
@@ -131,14 +131,14 @@
 		<keydef keys="gw-vents">
 			<topicmeta>
 				<keywords>
-					<keyword>1</keyword>
+					<keyword>2</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
 		<keydef keys="gw-pumps">
 			<topicmeta>
 				<keywords>
-					<keyword>1</keyword>
+					<keyword>2</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
@@ -146,7 +146,7 @@
 		<keydef keys="f-tanks">
 			<topicmeta>
 				<keywords>
-					<keyword>1</keyword>
+					<keyword>2</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
@@ -160,21 +160,21 @@
 		<keydef keys="f-membs">
 			<topicmeta>
 				<keywords>
-					<keyword>2</keyword>
+					<keyword>4</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
 		<keydef keys="f-vents">
 			<topicmeta>
 				<keywords>
-					<keyword>2</keyword>
+					<keyword>4</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
 		<keydef keys="f-perms">
 			<topicmeta>
 				<keywords>
-					<keyword>1</keyword>
+					<keyword>2</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
@@ -182,7 +182,7 @@
 		<keydef keys="sw-tanks">
 			<topicmeta>
 				<keywords>
-					<keyword>1</keyword>
+					<keyword>2</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>

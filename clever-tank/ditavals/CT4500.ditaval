@@ -2,5 +2,7 @@
 <val>
 	<prop action="exclude" att="product"/>
 	<prop action="include" att="product" val="ct4500"/>
-	<prop action="exclude" att="otherprops" val="tank-gwf"/>
+	<prop action="exclude" att="otherprops"/>
+	<prop action="include" att="otherprops" val="tank-gw"/>
+	<prop action="include" att="otherprops" val="tank-f"/>
 </val>

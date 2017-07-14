@@ -23,10 +23,10 @@
 	<mapref href="source/inspektion-und-wartung/s_inspektion-und-wartung.ditamap"/>
 	<mapref href="source/fehlerbehebung/s_fehlerbehebung.ditamap"/>
 	<mapref href="source/ausserbetriebnahme/s_ausserbetriebnahme.ditamap"/>
-	<mapref href="source/technische-daten/s_technische-daten.ditamap"/>
-	<mapref href="source/garantie/s_garantie.ditamap"/>
-	<mapref href="source/kontakt/s_kontakt.ditamap"/>
-	<mapref href="source/ce-konformitaetserklaerung/s_ce-konformitaetserklaerung.ditamap"/>
+	<topicref keys="r_tech-data" href="source/allgemeines/r_technische-daten.xml"/>
+	<topicref href="source/allgemeines/r_garantie.xml"/>
+	<topicref href="source/allgemeines/r_kontakt.xml"/>
+	<topicref href="source/allgemeines/r_ce-konformitaetserklaerung.xml"/>
 	<mapref href="source/anhang/s_anhang.ditamap"/>
 	<mapref href="source/glossar/s_glossar.ditamap"/>
 	<!-- #### RELATIONSHIPS TABLE #### -->
@@ -49,6 +49,16 @@
 				<topicref keyref="r_docs-perms"/>
 				<topicref keyref="r_docs-dwf"/>
 				<topicref keyref="r_feedpump"/>
+			</relcell>
+		</relrow>
+		<relrow>
+			<relcell linking="sourceonly">
+				<topicref keyref="t_montage-gw"/>
+				<topicref keyref="t_montage-f"/>
+				<topicref keyref="t_montage-sw"/>
+			</relcell>
+			<relcell>
+				<topicref keyref="r_tech-data"/>
 			</relcell>
 		</relrow>
 	</reltable>

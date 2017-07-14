@@ -66,6 +66,32 @@
                             </profilingAttributeStyle>
                             <profilingAttributeStyle>
                                 <field name="attributeValue">
+                                    <String>tank-f-connect</String>
+                                </field>
+                                <field name="foregroundColor">
+                                    <Integer>0</Integer>
+                                </field>
+                                <field name="backgroundColor">
+                                    <Integer>-1645057</Integer>
+                                </field>
+                                <field name="docTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="attributeName">
+                                    <String>otherprops</String>
+                                </field>
+                                <field name="textDecoration">
+                                    <null/>
+                                </field>
+                                <field name="bold">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="italic">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </profilingAttributeStyle>
+                            <profilingAttributeStyle>
+                                <field name="attributeValue">
                                     <String>tank-gw</String>
                                 </field>
                                 <field name="foregroundColor">
@@ -92,7 +118,59 @@
                             </profilingAttributeStyle>
                             <profilingAttributeStyle>
                                 <field name="attributeValue">
+                                    <String>tank-gw-connect</String>
+                                </field>
+                                <field name="foregroundColor">
+                                    <Integer>0</Integer>
+                                </field>
+                                <field name="backgroundColor">
+                                    <Integer>-1703937</Integer>
+                                </field>
+                                <field name="docTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="attributeName">
+                                    <String>otherprops</String>
+                                </field>
+                                <field name="textDecoration">
+                                    <null/>
+                                </field>
+                                <field name="bold">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="italic">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </profilingAttributeStyle>
+                            <profilingAttributeStyle>
+                                <field name="attributeValue">
                                     <String>tank-gwf</String>
+                                </field>
+                                <field name="foregroundColor">
+                                    <Integer>0</Integer>
+                                </field>
+                                <field name="backgroundColor">
+                                    <Integer>-1638427</Integer>
+                                </field>
+                                <field name="docTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="attributeName">
+                                    <String>otherprops</String>
+                                </field>
+                                <field name="textDecoration">
+                                    <null/>
+                                </field>
+                                <field name="bold">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="italic">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </profilingAttributeStyle>
+                            <profilingAttributeStyle>
+                                <field name="attributeValue">
+                                    <String>tank-sw-connect</String>
                                 </field>
                                 <field name="foregroundColor">
                                     <Integer>0</Integer>
@@ -346,6 +424,20 @@
                                         </profileConditionValue>
                                         <profileConditionValue>
                                             <field name="value">
+                                                <String>tank-f-connect</String>
+                                            </field>
+                                            <field name="description">
+                                                <String></String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <String>Multiple filter tanks connected</String>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
                                                 <String>tank-gw</String>
                                             </field>
                                             <field name="description">
@@ -360,6 +452,20 @@
                                         </profileConditionValue>
                                         <profileConditionValue>
                                             <field name="value">
+                                                <String>tank-gw-connect</String>
+                                            </field>
+                                            <field name="description">
+                                                <String></String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <String>Multiple grey water tanks connected</String>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
                                                 <String>tank-gwf</String>
                                             </field>
                                             <field name="description">
@@ -370,6 +476,20 @@
                                             </field>
                                             <field name="renderName">
                                                 <String>Grouped grey water and filter tank</String>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>tank-sw-connect</String>
+                                            </field>
+                                            <field name="description">
+                                                <String></String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <String>Multiple service water tanks connected</String>
                                             </field>
                                         </profileConditionValue>
                                     </profileConditionValue-array>
@@ -444,12 +564,18 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
+                                        <String>CleverTank 10000 - PDF</String>
                                         <String>CleverTank 1500 - PDF</String>
                                         <String>CleverTank 3000 - PDF</String>
+                                        <String>CleverTank 4500 - PDF</String>
+                                        <String>CleverTank 6000 - PDF</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
                                         <String>DITAMAP</String>
                                         <String>DITAMAP</String>
                                     </list>
