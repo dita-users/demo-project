@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="de-DE" id="r_zeichnung">
-  <title>Zeichnung</title>
-  <refbody>
-	<section>
-		<p></p>
-	</section>
-  </refbody>
+	<title>Diagram</title>
+	<refbody>
+		<section>
+			<fig><image keyref="diagram" scalefit="yes"/></fig>
+		</section>
+	</refbody>
 </reference>

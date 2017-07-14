@@ -193,9 +193,9 @@
 				</keywords>
 			</topicmeta>
 		</keydef>
-		
+
 		<keydef keys="r_docs-membr" keyref="r_membr-mx-010-bx"/>
-		
+
 		<!--<keydef keys="">
 			<topicmeta>
 				<keywords>
@@ -216,15 +216,13 @@
 				<linktext>Illustration CT3000</linktext>
 			</topicmeta>
 		</keydef>
-
-
-		<!--<keydef keys="">
+		<keydef keys="diagram" href="../graphics/diagram-ct3000.tif" format="TIF" navtitle="Diagram CT3000">
 			<topicmeta>
-				<keywords>
-					<keyword></keyword>
-				</keywords>
+				<navtitle>Diagram CT3000</navtitle>
+				<linktext>Diagram CT3000</linktext>
 			</topicmeta>
-		</keydef>-->
+		</keydef>
+
 	</topicgroup>
 
 </map>
