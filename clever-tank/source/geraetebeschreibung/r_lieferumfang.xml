@@ -9,24 +9,24 @@
 		<section otherprops="tank-gw">
 			<title>Baugruppe <keyword keyref="group-num-gw"/></title>
 			<ul>
-				<li>Behälter</li>
-				<li>Belüfter</li>
-				<li>Förderpumpe</li>
+				<li><keyword keyref="gw-tanks"/> x Behälter <keyword keyref="gw-tank-vol"/></li>
+				<li><keyword keyref="gw-vents"/> x Belüfter</li>
+				<li><keyword keyref="gw-pumps"/> x Förderpumpe</li>
 			</ul>
 		</section>
-		<section>
+		<section otherprops="tank-gwf tank-f">
 			<title>Baugruppe <keyword keyref="group-num-f"/></title>
 			<ul>
-				<li>Behälter</li>
-				<li>Membraneinheit</li>
-				<li>Belüfter</li>
-				<li>Permeatpumpe</li>
+				<li><keyword keyref="f-tanks"/> x Behälter <keyword keyref="f-tank-vol"/></li>
+				<li><keyword keyref="f-membs"/> x Membraneinheit</li>
+				<li><keyword keyref="f-vents"/> x Belüfter</li>
+				<li><keyword keyref="f-perms"/> x Permeatpumpe</li>
 			</ul>
 		</section>
 		<section>
 			<title>Baugruppe <keyword keyref="group-num-sw"/></title>
 			<ul>
-				<li>Behälter</li>
+				<li><keyword keyref="sw-tanks"/> x Behälter <keyword keyref="sw-tank-vol"/></li>
 				<li>Trinkwassernachspeisung</li>
 			</ul>
 		</section>
