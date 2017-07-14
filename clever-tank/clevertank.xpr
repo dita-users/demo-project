@@ -155,6 +155,10 @@
                         <Integer>0</Integer>
                     </entry>
                     <entry>
+                        <String>enable.project.master.files.support</String>
+                        <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
                         <String>key.dictionaries.option.pane</String>
                         <Boolean>true</Boolean>
                     </entry>
@@ -487,7 +491,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT10000.ditaval</String>
+                                            <String>${pd}/ditavals/CT10000.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -776,7 +780,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT10000.ditaval</String>
+                                            <String>${pd}/ditavals/CT10000.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -787,10 +791,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -1116,7 +1120,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT1500.ditaval</String>
+                                            <String>${pd}/ditavals/CT1500.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -1127,10 +1131,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <null/>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -1375,7 +1379,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT1500.ditaval</String>
+                                            <String>${pd}/CT1500.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -1386,10 +1390,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -1715,7 +1719,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT3000.ditaval</String>
+                                            <String>${pd}/ditavals/CT3000.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -1726,10 +1730,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <null/>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -1974,7 +1978,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT3000.ditaval</String>
+                                            <String>${pd}/ditavals/CT3000.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -1985,10 +1989,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -2314,7 +2318,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT4500.ditaval</String>
+                                            <String>${pd}/ditavals/CT4500.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -2325,10 +2329,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <null/>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -2573,7 +2577,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT4500.ditaval</String>
+                                            <String>${pd}/ditavals/CT4500.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -2584,10 +2588,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -2913,7 +2917,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT6000.ditaval</String>
+                                            <String>${pd}/ditavals/CT6000.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -2924,10 +2928,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <null/>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -3172,7 +3176,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT6000.ditaval</String>
+                                            <String>${pd}/ditavals/CT6000.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -3183,10 +3187,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                    <String>${pd}\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -3500,6 +3504,9 @@
         </options>
     </meta>
     <projectTree name="clevertank.xpr">
+        <folder masterFiles="true" name="Master Files">
+            <file name="clevertank.ditamap"/>
+        </folder>
         <folder path="."/>
     </projectTree>
 </project>
