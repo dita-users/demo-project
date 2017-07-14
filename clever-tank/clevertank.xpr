@@ -446,10 +446,12 @@
                                     <list>
                                         <String>CleverTank 1500 - PDF</String>
                                         <String>CleverTank 3000 - PDF</String>
+                                        <String>CleverTank 4500 - PDF</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
+                                        <String>DITAMAP</String>
                                         <String>DITAMAP</String>
                                         <String>DITAMAP</String>
                                     </list>
@@ -1379,7 +1381,7 @@
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String>${pd}/CT1500.ditaval</String>
+                                            <String>${pd}/ditavals/CT1500.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -2010,7 +2012,7 @@
                                     <list>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>args.breadcrumbs</String>
+                                                <String>clean.output</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -2026,13 +2028,16 @@
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
+                                                    <null/>
                                                 </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -2101,7 +2106,30 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>clean.output</String>
+                                                <String>webhelp.copyright</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>(c) 2016 thinkDITA</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.breadcrumbs</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -2117,16 +2145,13 @@
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
+                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
-                                                    <null/>
                                                 </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -2151,29 +2176,6 @@
                                                     <String>.xml</String>
                                                     <String>.dita</String>
                                                 </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>webhelp.copyright</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>(c) 2016 thinkDITA</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>0</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
                                             </field>
                                             <field name="possibleValuesDescriptions">
                                                 <null/>
@@ -2609,7 +2611,7 @@
                                     <list>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>args.breadcrumbs</String>
+                                                <String>clean.output</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -2625,13 +2627,16 @@
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
-                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
+                                                    <null/>
                                                 </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -2700,7 +2705,30 @@
                                         </ditaParameter>
                                         <ditaParameter>
                                             <field name="name">
-                                                <String>clean.output</String>
+                                                <String>webhelp.copyright</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>(c) 2016 thinkDITA</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.breadcrumbs</String>
                                             </field>
                                             <field name="description">
                                                 <null/>
@@ -2716,16 +2744,13 @@
                                             </field>
                                             <field name="possibleValues">
                                                 <String-array>
+                                                    <null/>
                                                     <String>yes</String>
                                                     <String>no</String>
-                                                    <null/>
                                                 </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <String-array>
-                                                    <String></String>
-                                                    <String></String>
-                                                </String-array>
+                                                <null/>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -2750,29 +2775,6 @@
                                                     <String>.xml</String>
                                                     <String>.dita</String>
                                                 </String-array>
-                                            </field>
-                                            <field name="possibleValuesDescriptions">
-                                                <null/>
-                                            </field>
-                                        </ditaParameter>
-                                        <ditaParameter>
-                                            <field name="name">
-                                                <String>webhelp.copyright</String>
-                                            </field>
-                                            <field name="description">
-                                                <null/>
-                                            </field>
-                                            <field name="value">
-                                                <String>(c) 2016 thinkDITA</String>
-                                            </field>
-                                            <field name="defaultValue">
-                                                <null/>
-                                            </field>
-                                            <field name="type">
-                                                <Integer>0</Integer>
-                                            </field>
-                                            <field name="possibleValues">
-                                                <null/>
                                             </field>
                                             <field name="possibleValuesDescriptions">
                                                 <null/>
