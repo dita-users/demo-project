@@ -494,10 +494,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <null/>
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -601,6 +601,36 @@
                                             </field>
                                             <field name="possibleValuesDescriptions">
                                                 <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>fix.external.refs.com.oxygenxml</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>true</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>false</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>true</String>
+                                                    <String>false</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                     </list>
@@ -753,10 +783,10 @@
                                     <Boolean>true</Boolean>
                                 </field>
                                 <field name="skinCssFile">
-                                    <null/>
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
                                 </field>
                                 <field name="lastCustomSkinCssPath">
-                                    <null/>
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
                                 </field>
                                 <field name="webhelpResponsiveTemplate">
                                     <null/>
@@ -860,6 +890,36 @@
                                             </field>
                                             <field name="possibleValuesDescriptions">
                                                 <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>fix.external.refs.com.oxygenxml</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>true</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>false</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>true</String>
+                                                    <String>false</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                     </list>

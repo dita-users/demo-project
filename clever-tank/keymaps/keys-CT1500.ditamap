@@ -24,7 +24,7 @@
 
 	</topicgroup>
 
-	<topicgroup>
+	<topicgroup translate="no">
 		<topicmeta>
 			<navtitle translate="no">Assembly Groups</navtitle>
 		</topicmeta>
@@ -107,8 +107,31 @@
 				</keywords>
 			</topicmeta>
 		</keydef>-->
-		
-		
+
+
 	</topicgroup>
+
+	<!-- ######### GRAPHICS: ######## -->
+	<topicgroup>
+		<topicmeta>
+			<navtitle translate="no">Graphics</navtitle>
+		</topicmeta>
+		<keydef keys="il_assembly" href="../graphics/il_ct1500.jpg" format="JPG" navtitle="Illustration CT1500">
+			<topicmeta>
+				<navtitle>Illustration CT1500</navtitle>
+				<linktext>Illustration CT1500</linktext>
+			</topicmeta>
+		</keydef>
+
+
+		<!--<keydef keys="">
+			<topicmeta>
+				<keywords>
+					<keyword></keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>-->
+	</topicgroup>
+
 
 </map>

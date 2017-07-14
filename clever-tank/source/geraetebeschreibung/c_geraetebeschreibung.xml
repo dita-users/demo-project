@@ -4,10 +4,14 @@
 	<title>Geraetebeschreibung </title>
 	<conbody>
 		<p>Die Anlagen sind zur mehrstufigen Aufbereitung von Grauwasser und Bereitstellung von Betriebswasser vorgesehen. Die Anlagen bestehen aus mehreren Baugruppen.</p>
+		<fig>
+			<image keyref="il_assembly"/>
+		</fig>
 		<ul>
 			<li otherprops="tank-gwf"><p><b>Baugruppe <keyword keyref="group-num-gw"/>: </b>Grauwasser sammeln, vorreinigen und filtern</p><p>In der ersten Baugruppe wird das anfallende
 					Grauwasser gesammelt, vorgereinigt und gefiltert.</p></li>
-			<li otherprops="tank-gw"><p><b>Baugruppe <keyword keyref="group-num-gw"/>: </b>Grauwasser sammeln und vorreinigen</p><p>In der ersten Baugruppe wird das anfallende Grauwasser gesammelt und vorgereinigt.</p></li>
+			<li otherprops="tank-gw"><p><b>Baugruppe <keyword keyref="group-num-gw"/>: </b>Grauwasser sammeln und vorreinigen</p><p>In der ersten Baugruppe wird das anfallende Grauwasser
+					gesammelt und vorgereinigt.</p></li>
 			<li otherprops="tank-f"><p><b>Baugruppe <keyword keyref="group-num-f"/>: </b>Grauwasserfiltrierung</p><p>Die nächste Baugruppe dient zur Grauwasserfiltrierung mit den <keyword
 						keyref="prod-series"/> Membranmodulen.</p></li>
 			<li><p><b>Baugruppe <keyword keyref="group-num-sw"/>: </b>Betriebswasserspeicher</p><p>In der nächsten Baugruppe wird das filtrierte Grauwasser als Betriebswasser gespeichert.

@@ -5,26 +5,26 @@
 
 	<topicgroup>
 		<topicmeta>
-			<navtitle>Produkt</navtitle>
+			<navtitle translate="no">Produkt</navtitle>
 		</topicmeta>
 		<keydef keys="prod-name">
 			<topicmeta>
 				<keywords>
-					<keyword>CleverTank 4500</keyword>
+					<keyword translate="no">CleverTank 4500</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
 		<keydef keys="prod-short">
 			<topicmeta>
 				<keywords>
-					<keyword>CT4500</keyword>
+					<keyword translate="no">CT4500</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
 
 	</topicgroup>
 
-	<topicgroup>
+	<topicgroup translate="no">
 		<topicmeta>
 			<navtitle translate="no">Assembly Groups</navtitle>
 		</topicmeta>
@@ -106,8 +106,27 @@
 				</keywords>
 			</topicmeta>
 		</keydef>-->
-		
-		
 	</topicgroup>
 
+	<!-- ######### GRAPHICS: ######## -->
+	<topicgroup>
+		<topicmeta>
+			<navtitle translate="no">Graphics</navtitle>
+		</topicmeta>
+		<keydef keys="il_assembly" href="../graphics/il_ct4500.jpg" format="JPG" navtitle="Illustration CT4500">
+			<topicmeta>
+				<navtitle>Illustration CT4500</navtitle>
+				<linktext>Illustration CT4500</linktext>
+			</topicmeta>
+		</keydef>
+
+
+		<!--<keydef keys="">
+			<topicmeta>
+				<keywords>
+					<keyword></keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>-->
+	</topicgroup>
 </map>
