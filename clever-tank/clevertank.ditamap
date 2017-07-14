@@ -10,8 +10,11 @@
 	<mapref href="keymaps/keys-CT4500.ditamap" product="ct4500" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-CT6000.ditamap" product="ct6000" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-CT10000.ditamap" product="ct10000" format="ditamap" processing-role="resource-only"/>
+	<topicref keys="r_membr-mx-010-bx" href="source/anhang/r_membr-mx-010-bx.xml" navtitle="Dokumentation Membraneinheit MX-010-BX" format="dita" type="reference" processing-role="resource-only"/>
+	<topicref keys="r_membr-ux-05" href="source/anhang/r_membr-ux-05.xml" navtitle="Dokumentation Membraneinheit UX-05" format="dita" type="reference" processing-role="resource-only"/>
 	<!-- #### WAREHOUSE SECTION (conref pool) #### -->
 	<topicref href="source/warehouse/reuse_trbl-elements.xml" format="dita" processing-role="resource-only"/>
+	
 	<!-- #### CONTENT #### -->
 	<mapref href="source/sicherheitshinweise/s_sicherheitshinweise.ditamap"/>
 	<mapref href="source/geraetebeschreibung/s_geraetebeschreibung.ditamap"/>
@@ -34,6 +37,18 @@
 			</relcell>
 			<relcell>
 				<topicref keyref="wartung"/>
+			</relcell>
+		</relrow>
+		<relrow>
+			<relcell linking="sourceonly">
+				<topicref keyref="r_deliv-scope"/>
+			</relcell>
+			<relcell>
+				<topicref keyref="r_docs-membr"/>
+				<topicref keyref="r_docs-vents"/>
+				<topicref keyref="r_docs-perms"/>
+				<topicref keyref="r_docs-dwf"/>
+				<topicref keyref="r_feedpump"/>
 			</relcell>
 		</relrow>
 	</reltable>

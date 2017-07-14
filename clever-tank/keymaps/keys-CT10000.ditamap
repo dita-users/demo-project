@@ -107,13 +107,13 @@
 			</topicmeta>
 		</keydef>-->
 	</topicgroup>
-	
+
 	<!-- ######### TECH DATA: ######## -->
 	<topicgroup>
 		<topicmeta>
 			<navtitle translate="no">Tech data</navtitle>
 		</topicmeta>
-		
+
 		<keydef keys="gw-tanks">
 			<topicmeta>
 				<keywords>
@@ -142,7 +142,7 @@
 				</keywords>
 			</topicmeta>
 		</keydef>
-		
+
 		<keydef keys="f-tanks">
 			<topicmeta>
 				<keywords>
@@ -178,7 +178,7 @@
 				</keywords>
 			</topicmeta>
 		</keydef>
-		
+
 		<keydef keys="sw-tanks">
 			<topicmeta>
 				<keywords>
@@ -194,6 +194,8 @@
 			</topicmeta>
 		</keydef>
 		
+		<keydef keys="r_docs-membr" keyref="r_membr-ux-05"/>
+
 		<!--<keydef keys="">
 			<topicmeta>
 				<keywords>
@@ -202,7 +204,7 @@
 			</topicmeta>
 		</keydef>-->
 	</topicgroup>
-	
+
 	<!-- ######### GRAPHICS: ######## -->
 	<topicgroup>
 		<topicmeta>
