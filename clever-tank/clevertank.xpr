@@ -10,6 +10,115 @@
                         <Integer>0</Integer>
                     </entry>
                     <entry>
+                        <String>author.profiling.styles</String>
+                        <profilingAttributeStyle-array>
+                            <profilingAttributeStyle>
+                                <field name="attributeValue">
+                                    <String>expert</String>
+                                </field>
+                                <field name="foregroundColor">
+                                    <Integer>-65281</Integer>
+                                </field>
+                                <field name="backgroundColor">
+                                    <Integer>0</Integer>
+                                </field>
+                                <field name="docTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="attributeName">
+                                    <String>audience</String>
+                                </field>
+                                <field name="textDecoration">
+                                    <null/>
+                                </field>
+                                <field name="bold">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="italic">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </profilingAttributeStyle>
+                            <profilingAttributeStyle>
+                                <field name="attributeValue">
+                                    <String>tank-f</String>
+                                </field>
+                                <field name="foregroundColor">
+                                    <Integer>0</Integer>
+                                </field>
+                                <field name="backgroundColor">
+                                    <Integer>-1645057</Integer>
+                                </field>
+                                <field name="docTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="attributeName">
+                                    <String>otherprops</String>
+                                </field>
+                                <field name="textDecoration">
+                                    <null/>
+                                </field>
+                                <field name="bold">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="italic">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </profilingAttributeStyle>
+                            <profilingAttributeStyle>
+                                <field name="attributeValue">
+                                    <String>tank-gw</String>
+                                </field>
+                                <field name="foregroundColor">
+                                    <Integer>0</Integer>
+                                </field>
+                                <field name="backgroundColor">
+                                    <Integer>-1703937</Integer>
+                                </field>
+                                <field name="docTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="attributeName">
+                                    <String>otherprops</String>
+                                </field>
+                                <field name="textDecoration">
+                                    <null/>
+                                </field>
+                                <field name="bold">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="italic">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </profilingAttributeStyle>
+                            <profilingAttributeStyle>
+                                <field name="attributeValue">
+                                    <String>tank-gwf</String>
+                                </field>
+                                <field name="foregroundColor">
+                                    <Integer>0</Integer>
+                                </field>
+                                <field name="backgroundColor">
+                                    <Integer>-1638427</Integer>
+                                </field>
+                                <field name="docTypePattern">
+                                    <String>*DITA*</String>
+                                </field>
+                                <field name="attributeName">
+                                    <String>otherprops</String>
+                                </field>
+                                <field name="textDecoration">
+                                    <null/>
+                                </field>
+                                <field name="bold">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="italic">
+                                    <Boolean>false</Boolean>
+                                </field>
+                            </profilingAttributeStyle>
+                        </profilingAttributeStyle-array>
+                    </entry>
+                    <entry>
                         <String>dita.fill.format.attribute</String>
                         <Boolean>true</Boolean>
                     </entry>
@@ -48,6 +157,10 @@
                     <entry>
                         <String>key.dita.option.pane</String>
                         <Boolean>true</Boolean>
+                    </entry>
+                    <entry>
+                        <String>keys.context</String>
+                        <String>${pdu}/clevertank.ditamap</String>
                     </entry>
                     <entry>
                         <String>profiling.colors.option.pane</String>
@@ -211,35 +324,7 @@
                                     <profileConditionValue-array>
                                         <profileConditionValue>
                                             <field name="value">
-                                                <String>group1</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>You can change it from the "Profiling/Conditional Text" preferences page.</String>
-                                            </field>
-                                            <field name="level">
-                                                <Integer>0</Integer>
-                                            </field>
-                                            <field name="renderName">
-                                                <String>Baugruppe1</String>
-                                            </field>
-                                        </profileConditionValue>
-                                        <profileConditionValue>
-                                            <field name="value">
-                                                <String>group2</String>
-                                            </field>
-                                            <field name="description">
-                                                <String>You can change it from the "Profiling/Conditional Text" preferences page.</String>
-                                            </field>
-                                            <field name="level">
-                                                <Integer>0</Integer>
-                                            </field>
-                                            <field name="renderName">
-                                                <String>Baugruppe2</String>
-                                            </field>
-                                        </profileConditionValue>
-                                        <profileConditionValue>
-                                            <field name="value">
-                                                <String>group3</String>
+                                                <String>tank-f</String>
                                             </field>
                                             <field name="description">
                                                 <String></String>
@@ -248,21 +333,35 @@
                                                 <Integer>0</Integer>
                                             </field>
                                             <field name="renderName">
-                                                <String>Baugruppe3</String>
+                                                <String>Separate filter tank</String>
                                             </field>
                                         </profileConditionValue>
                                         <profileConditionValue>
                                             <field name="value">
-                                                <String>group4</String>
+                                                <String>tank-gw</String>
                                             </field>
                                             <field name="description">
-                                                <String></String>
+                                                <String>You can change it from the "Profiling/Conditional Text" preferences page.</String>
                                             </field>
                                             <field name="level">
                                                 <Integer>0</Integer>
                                             </field>
                                             <field name="renderName">
-                                                <String>Baugruppe4</String>
+                                                <String>Separate grey water tank</String>
+                                            </field>
+                                        </profileConditionValue>
+                                        <profileConditionValue>
+                                            <field name="value">
+                                                <String>tank-gwf</String>
+                                            </field>
+                                            <field name="description">
+                                                <String>You can change it from the "Profiling/Conditional Text" preferences page.</String>
+                                            </field>
+                                            <field name="level">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="renderName">
+                                                <String>Grouped grey water and filter tank</String>
                                             </field>
                                         </profileConditionValue>
                                     </profileConditionValue-array>
@@ -337,27 +436,18 @@
                                 </field>
                                 <field name="scenarioIds">
                                     <list>
-                                        <String>DITA Map PDF - CleverTank</String>
+                                        <String>CleverTank 4500 - PDF</String>
+                                        <String>CleverTank 1500 - PDF</String>
+                                        <String>CleverTank 6000 - PDF</String>
+                                        <String>CleverTank 10000 - PDF</String>
+                                        <String>CleverTank 3000 - PDF</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>DITAMAP</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
-                                    <String>${cfn}.ditamap</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>DITA Map PDF - CleverTank</String>
-                                        <String>DITA Map WebHelp - CleverTank</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
                                         <String>DITAMAP</String>
                                         <String>DITAMAP</String>
                                     </list>
@@ -379,7 +469,7 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
-                                    <String>${pd}/out/pdf-${cfn}</String>
+                                    <String>${pd}/out/pdf-${cfn}/pdf-CT1500</String>
                                 </field>
                                 <field name="tempDir">
                                     <String>${pd}/temp/pdf-${cfn}</String>
@@ -390,16 +480,16 @@
                                 <field name="filters">
                                     <ditavalFilters>
                                         <field name="useDitavalFilePath">
-                                            <Boolean>false</Boolean>
+                                            <Boolean>true</Boolean>
                                         </field>
                                         <field name="useAppliedConditionSet">
-                                            <Boolean>true</Boolean>
+                                            <Boolean>false</Boolean>
                                         </field>
                                         <field name="appliedConditionSet">
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <String></String>
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT1500.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -440,7 +530,7 @@
                                                 <String>nofamily</String>
                                             </field>
                                             <field name="defaultValue">
-                                                <String>none</String>
+                                                <null/>
                                             </field>
                                             <field name="type">
                                                 <Integer>4</Integer>
@@ -449,12 +539,18 @@
                                                 <String-array>
                                                     <String>none</String>
                                                     <String>all</String>
+                                                    <String>noparent</String>
                                                     <String>nofamily</String>
                                                     <null/>
                                                 </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -481,7 +577,10 @@
                                                 </String-array>
                                             </field>
                                             <field name="possibleValuesDescriptions">
-                                                <null/>
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
                                             </field>
                                         </ditaParameter>
                                         <ditaParameter>
@@ -537,7 +636,7 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map PDF - CleverTank</String>
+                                    <String>CleverTank 1500 - PDF</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -629,7 +728,1043 @@
                                     <String>${cfd}</String>
                                 </field>
                                 <field name="outputDir">
-                                    <String>${pd}/out/webhelp-${cfn}</String>
+                                    <String>${pd}/out/pdf-${cfn}/pdf-CT3000</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${pd}/temp/pdf-${cfn}</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>pdf2</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>true</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT3000.ditaval</String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <null/>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <null/>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>nofamily</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>noparent</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.output</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>dita.ext</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>.xml</String>
+                                                    <String>.dita</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>CleverTank 3000 - PDF</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${pd}/out/pdf-${cfn}/pdf-CT4500</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${pd}/temp/pdf-${cfn}</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>pdf2</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>true</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT4500.ditaval</String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <null/>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <null/>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>nofamily</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>noparent</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.output</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>dita.ext</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>.xml</String>
+                                                    <String>.dita</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>CleverTank 4500 - PDF</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${pd}/out/pdf-${cfn}/pdf-CT6000</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${pd}/temp/pdf-${cfn}</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>pdf2</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>true</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT6000.ditaval</String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <null/>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <null/>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>nofamily</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>noparent</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.output</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>dita.ext</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>.xml</String>
+                                                    <String>.dita</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>CleverTank 6000 - PDF</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${pd}/out/pdf-${cfn}/pdf-CT10000</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${pd}/temp/pdf-${cfn}</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>pdf2</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>true</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT10000.ditaval</String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <null/>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <null/>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>nofamily</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>noparent</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.output</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>dita.ext</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>.xml</String>
+                                                    <String>.dita</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>CleverTank 10000 - PDF</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${pd}/out/webhelp-${cfn}/webhelp-CT1500</String>
                                 </field>
                                 <field name="tempDir">
                                     <String>${pd}/temp/webhelp-${cfn}</String>
@@ -640,16 +1775,16 @@
                                 <field name="filters">
                                     <ditavalFilters>
                                         <field name="useDitavalFilePath">
-                                            <Boolean>false</Boolean>
+                                            <Boolean>true</Boolean>
                                         </field>
                                         <field name="useAppliedConditionSet">
-                                            <Boolean>true</Boolean>
+                                            <Boolean>false</Boolean>
                                         </field>
                                         <field name="appliedConditionSet">
                                             <null/>
                                         </field>
                                         <field name="ditavalFilePath">
-                                            <null/>
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT1500.ditaval</String>
                                         </field>
                                         <field name="simpleFiltersList">
                                             <list/>
@@ -877,7 +2012,1367 @@
                                     <null/>
                                 </field>
                                 <field name="name">
-                                    <String>DITA Map WebHelp - CleverTank</String>
+                                    <String>CleverTank 1500 - WebHelp</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${pd}/out/webhelp-${cfn}/webhelp-CT3000</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${pd}/temp/webhelp-${cfn}</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>webhelp</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>true</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT3000.ditaval</String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.breadcrumbs</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>noparent</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.xhtml.classattr</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.output</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>dita.ext</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>.xml</String>
+                                                    <String>.dita</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.copyright</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>(c) 2016 thinkDITA</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>CleverTank 3000 - WebHelp</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${pd}/out/webhelp-${cfn}/webhelp-CT4500</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${pd}/temp/webhelp-${cfn}</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>webhelp</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>true</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT4500.ditaval</String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.breadcrumbs</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>noparent</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.xhtml.classattr</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.output</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>dita.ext</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>.xml</String>
+                                                    <String>.dita</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.copyright</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>(c) 2016 thinkDITA</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>CleverTank 4500 - WebHelp</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${pd}/out/webhelp-${cfn}/webhelp-CT6000</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${pd}/temp/webhelp-${cfn}</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>webhelp</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>true</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT6000.ditaval</String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.breadcrumbs</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>noparent</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.xhtml.classattr</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.output</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>dita.ext</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>.xml</String>
+                                                    <String>.dita</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.copyright</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>(c) 2016 thinkDITA</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>CleverTank 6000 - WebHelp</String>
+                                </field>
+                                <field name="baseURL">
+                                    <null/>
+                                </field>
+                                <field name="footerURL">
+                                    <null/>
+                                </field>
+                                <field name="fOPMethod">
+                                    <null/>
+                                </field>
+                                <field name="fOProcessorName">
+                                    <null/>
+                                </field>
+                                <field name="headerURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXSLURL">
+                                    <null/>
+                                </field>
+                                <field name="inputXMLURL">
+                                    <null/>
+                                </field>
+                                <field name="defaultScenario">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="isFOPPerforming">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="type">
+                                    <String>DITAMAP</String>
+                                </field>
+                                <field name="saveAs">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="openInBrowser">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="outputFile">
+                                    <null/>
+                                </field>
+                                <field name="outputResource">
+                                    <null/>
+                                </field>
+                                <field name="openOtherLocationInBrowser">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="locationToOpenInBrowserURL">
+                                    <String></String>
+                                </field>
+                                <field name="openInEditor">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInHTMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInXMLPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInSVGPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="showInResultSetPane">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useXSLTInput">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="xsltParams">
+                                    <list/>
+                                </field>
+                                <field name="cascadingStylesheets">
+                                    <String-array/>
+                                </field>
+                                <field name="xslTransformer">
+                                    <String>DITA-OT</String>
+                                </field>
+                                <field name="extensionURLs">
+                                    <String-array/>
+                                </field>
+                            </ditaScenario>
+                            <ditaScenario>
+                                <field name="useXEP">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="useAntennaHouse">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="baseDir">
+                                    <String>${cfd}</String>
+                                </field>
+                                <field name="outputDir">
+                                    <String>${pd}/out/webhelp-${cfn}/webhelp-CT10000</String>
+                                </field>
+                                <field name="tempDir">
+                                    <String>${pd}/temp/webhelp-${cfn}</String>
+                                </field>
+                                <field name="transtype">
+                                    <String>webhelp</String>
+                                </field>
+                                <field name="filters">
+                                    <ditavalFilters>
+                                        <field name="useDitavalFilePath">
+                                            <Boolean>true</Boolean>
+                                        </field>
+                                        <field name="useAppliedConditionSet">
+                                            <Boolean>false</Boolean>
+                                        </field>
+                                        <field name="appliedConditionSet">
+                                            <null/>
+                                        </field>
+                                        <field name="ditavalFilePath">
+                                            <String>file:/C:/Users/mac/Documents/gitprojects/dita-users/clever-tank/ditavals/CT10000.ditaval</String>
+                                        </field>
+                                        <field name="simpleFiltersList">
+                                            <list/>
+                                        </field>
+                                    </ditavalFilters>
+                                </field>
+                                <field name="addOxygenJars">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="skinCssFile">
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                </field>
+                                <field name="lastCustomSkinCssPath">
+                                    <String>C:\Users\mac\Documents\gitprojects\dita-users\clever-tank\styles\skin.css</String>
+                                </field>
+                                <field name="webhelpResponsiveTemplate">
+                                    <null/>
+                                </field>
+                                <field name="additionalAntArgs">
+                                    <String></String>
+                                </field>
+                                <field name="buildTarget">
+                                    <String></String>
+                                </field>
+                                <field name="buildFilePath">
+                                    <String></String>
+                                </field>
+                                <field name="ditaParams">
+                                    <list>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.breadcrumbs</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.rellinks</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>all</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>none</String>
+                                                    <String>all</String>
+                                                    <String>noparent</String>
+                                                    <String>nofamily</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String>No links are included.</String>
+                                                    <String>All links are included.</String>
+                                                    <String>Parent links are not included.</String>
+                                                    <String>Parent, child, next, and previous links are not included.</String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>args.xhtml.classattr</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>clean.output</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>yes</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <String>no</String>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>4</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <String>yes</String>
+                                                    <String>no</String>
+                                                    <null/>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <String-array>
+                                                    <String></String>
+                                                    <String></String>
+                                                </String-array>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>dita.ext</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>.xml</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <String-array>
+                                                    <null/>
+                                                    <String>.xml</String>
+                                                    <String>.dita</String>
+                                                </String-array>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                        <ditaParameter>
+                                            <field name="name">
+                                                <String>webhelp.copyright</String>
+                                            </field>
+                                            <field name="description">
+                                                <null/>
+                                            </field>
+                                            <field name="value">
+                                                <String>(c) 2016 thinkDITA</String>
+                                            </field>
+                                            <field name="defaultValue">
+                                                <null/>
+                                            </field>
+                                            <field name="type">
+                                                <Integer>0</Integer>
+                                            </field>
+                                            <field name="possibleValues">
+                                                <null/>
+                                            </field>
+                                            <field name="possibleValuesDescriptions">
+                                                <null/>
+                                            </field>
+                                        </ditaParameter>
+                                    </list>
+                                </field>
+                                <field name="jvmArgs">
+                                    <String>-Xmx384m</String>
+                                </field>
+                                <field name="useCustomJavaHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customJavaHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="useCustomANTHome">
+                                    <Boolean>false</Boolean>
+                                </field>
+                                <field name="customANTHomeDir">
+                                    <String></String>
+                                </field>
+                                <field name="workingDir">
+                                    <null/>
+                                </field>
+                                <field name="showConsoleAlways">
+                                    <Boolean>true</Boolean>
+                                </field>
+                                <field name="advancedOptionsMap">
+                                    <null/>
+                                </field>
+                                <field name="name">
+                                    <String>CleverTank 10000 - WebHelp</String>
                                 </field>
                                 <field name="baseURL">
                                     <null/>
@@ -959,6 +3454,10 @@
                                 </field>
                             </ditaScenario>
                         </scenario-array>
+                    </entry>
+                    <entry>
+                        <String>show.colors.and.styles.default.value</String>
+                        <Boolean>true</Boolean>
                     </entry>
                 </serializableOrderedMap>
             </serialized>

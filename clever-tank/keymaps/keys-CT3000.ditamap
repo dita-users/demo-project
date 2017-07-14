@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
-<map>
-	<title>keymap: Produkt-Keys CT3000</title>
+<map xml:lang="de-DE">
+	<title>keymap: Product-Keys CT3000</title>
 
 	<topicgroup>
 		<topicmeta>
-			<navtitle>Produkt</navtitle>
+			<navtitle translate="no">Product</navtitle>
 		</topicmeta>
 		<keydef keys="prod-name">
 			<topicmeta>
 				<keywords>
-					<keyword>CleverTank 3000</keyword>
+					<keyword translate="no">CleverTank 3000</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
 		<keydef keys="prod-short">
 			<topicmeta>
 				<keywords>
-					<keyword>CT3000</keyword>
+					<keyword translate="no">CT3000</keyword>
 				</keywords>
 			</topicmeta>
 		</keydef>
@@ -26,8 +26,79 @@
 
 	<topicgroup>
 		<topicmeta>
-			<navtitle/>
+			<navtitle translate="no">Assembly Groups</navtitle>
 		</topicmeta>
+		<keydef keys="group-num-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-f">
+			<topicmeta>
+				<keywords>
+					<keyword>2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>3</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<!-- #### Assembly order: #### -->
+		<keydef keys="group-num-before-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>0</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-after-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-before-f">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-after-f">
+			<topicmeta>
+				<keywords>
+					<keyword>3</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-before-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-after-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>4</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-ctrl">
+			<topicmeta>
+				<keywords>
+					<keyword>4</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
 		<!--<keydef keys="">
 			<topicmeta>
 				<keywords>

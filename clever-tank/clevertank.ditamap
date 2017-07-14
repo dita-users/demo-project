@@ -5,8 +5,8 @@
 	<!-- #### KEYS SECTION #### -->
 	<mapref href="keymaps/keys-allg.ditamap" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-GUI.ditamap" format="ditamap" processing-role="resource-only"/>
-	<mapref href="keymaps/keys-CT1500.ditamap" product="ct1500" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-CT3000.ditamap" product="ct3000" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT1500.ditamap" product="ct1500" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-CT4500.ditamap" product="ct4500" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-CT6000.ditamap" product="ct6000" format="ditamap" processing-role="resource-only"/>
 	<mapref href="keymaps/keys-CT10000.ditamap" product="ct10000" format="ditamap" processing-role="resource-only"/>
@@ -29,8 +29,12 @@
 	<!-- #### RELATIONSHIPS TABLE #### -->
 	<reltable>
 		<relrow>
-			<relcell linking="sourceonly"><topicref keyref="tr_fehler-membran-t2"/></relcell>
-			<relcell><topicref keyref="wartung"/></relcell>
+			<relcell linking="sourceonly">
+				<topicref keyref="tr_fehler-membran-t2"/>
+			</relcell>
+			<relcell>
+				<topicref keyref="wartung"/>
+			</relcell>
 		</relrow>
 	</reltable>
 </map>

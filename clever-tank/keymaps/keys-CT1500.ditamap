@@ -26,8 +26,80 @@
 
 	<topicgroup>
 		<topicmeta>
-			<navtitle/>
+			<navtitle translate="no">Assembly Groups</navtitle>
 		</topicmeta>
+		<keydef keys="group-num-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-f">
+			<!-- for CT1500: grey water and filter are in one group -->
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<!-- #### Assembly order: #### -->
+		<keydef keys="group-num-before-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>0</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-after-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-before-f">
+			<topicmeta>
+				<keywords>
+					<keyword>0</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-after-f">
+			<topicmeta>
+				<keywords>
+					<keyword>2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-before-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-after-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>3</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-ctrl">
+			<topicmeta>
+				<keywords>
+					<keyword>3</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
 		<!--<keydef keys="">
 			<topicmeta>
 				<keywords>
@@ -35,8 +107,8 @@
 				</keywords>
 			</topicmeta>
 		</keydef>-->
-
-
+		
+		
 	</topicgroup>
 
 </map>
