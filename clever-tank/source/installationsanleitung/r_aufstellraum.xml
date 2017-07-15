@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="de-DE" id="r_aufstellraum">
-  <title>Aufstellraum</title>
-  <refbody>
-	<section>
-		<p></p>
-	</section>
-  </refbody>
+	<title>Anforderungen an den Aufstellraum</title>
+	<refbody>
+		<section>
+			<p>Die Grauwasseranlage mit ihren PE–Behälter muss auf einem niveaugleichen, sauberen und festen Untergrund aufgestellt werden, um Fehlfunktionen im Anlagenbetrieb zu vermeiden.</p>
+			<p>Ausreichendem Abstand (Arbeitsraum) zu angrenzenden Wänden: Seitlich min. 0,5 m und Rückseitig min. 0,5 m.</p>
+			<p>Bitte orientieren Sie sich bei der Aufstellung der einzelnen PE-Speicherbehälter streng an dem im Bedienungs- und Installationsanleitung befindlichen Technischen Zeichnungen. Jeder einzelne
+				PE-Speicherbehälter ist entsprechend beschriftet und markiert.</p>
+			<p>Die Steuerung ist zur Wandmontage.</p>
+		</section>
+	</refbody>
 </reference>

@@ -54,7 +54,7 @@
 		<relrow>
 			<relcell linking="sourceonly">
 				<topicref keyref="t_montage-gw"/>
-				<topicref keyref="t_montage-f"/>
+				<topicref otherprops="tank-f" keyref="t_montage-f"/>
 				<topicref keyref="t_montage-sw"/>
 			</relcell>
 			<relcell>
