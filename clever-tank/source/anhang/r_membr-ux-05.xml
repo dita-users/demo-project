@@ -2,9 +2,26 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="de-DE" id="r_membr-ux-05.xml">
 	<title>Dokumentation Membraneinheit UX-05 </title>
+	<prolog>
+		<metadata><prodinfo>
+			<prodname/>
+			<vrmlist>
+				<vrm version="4500 10000"/>
+			</vrmlist>
+			<series><keyword keyref="prod-series"/></series>
+		</prodinfo></metadata>
+	</prolog>
 	<refbody>
 		<section>
-			<p/>
+			<!-- TODO: not as image; rewrite -->
+			<fig>
+				<image keyref="table_membr-ux-05" scalefit="yes"/>
+			</fig>
+		</section>
+		<section>
+			<fig>
+				<image keyref="il_membr-ux-05" scalefit="yes"/>
+			</fig>
 		</section>
 	</refbody>
 </reference>

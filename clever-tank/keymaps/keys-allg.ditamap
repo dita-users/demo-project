@@ -34,7 +34,7 @@
 				</keywords>
 			</topicmeta>
 		</keydef>
-	
+
 	</topicgroup>
 
 	<topicgroup>
@@ -48,6 +48,32 @@
 					<linktext>Steuerung</linktext>
 				</topicmeta>
 			</keydef>
+		</keydef>
+		<keydef keys="il_membr-mx-010-bx" href="../graphics/il_membr-mx-010-bx.png" format="PNG" navtitle="Membraneinheit MX-010-BX">
+			<topicmeta>
+				<navtitle>Membraneinheit MX-010-BX</navtitle>
+				<linktext>Membraneinheit MX-010-BX</linktext>
+			</topicmeta>
+		</keydef>
+		<!-- TODO: remove table-scan and rewrite as text -->
+		<keydef keys="table_membr-mx-010-bx" href="../graphics/table_membr-mx-010-bx.jpg" format="JPG" navtitle="Membraneinheit MX-010-BX">
+			<topicmeta>
+				<navtitle>Membraneinheit MX-010-BX</navtitle>
+				<linktext>Membraneinheit MX-010-BX</linktext>
+			</topicmeta>
+		</keydef>
+		<keydef keys="il_membr-ux-05" href="../graphics/il_membr-ux-05.png" format="PNG" navtitle="Membraneinheit UX-05">
+			<topicmeta>
+				<navtitle>Membraneinheit UX-05</navtitle>
+				<linktext>Membraneinheit UX-05</linktext>
+			</topicmeta>
+		</keydef>
+		<!-- TODO: remove table-scan and rewrite as text -->
+		<keydef keys="table_membr-ux-05" href="../graphics/table_membr-ux-05.jpg" format="JPG" navtitle="Membraneinheit UX-05">
+			<topicmeta>
+				<navtitle>Membraneinheit UX-05</navtitle>
+				<linktext>Membraneinheit UX-05</linktext>
+			</topicmeta>
 		</keydef>
 	</topicgroup>
 </map>

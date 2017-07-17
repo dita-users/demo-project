@@ -2,9 +2,26 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference xml:lang="de-DE" id="r_membr-mx-010-bx">
 	<title>Dokumentation Membraneinheit MX-010-BX</title>
+	<prolog>
+		<metadata><prodinfo>
+			<prodname/>
+			<vrmlist>
+				<vrm version="1500 3000 6000"/>
+			</vrmlist>
+			<series><keyword keyref="prod-series"/></series>
+		</prodinfo></metadata>
+	</prolog>
 	<refbody>
 		<section>
-			<p/>
+			<!-- TODO: not as image; rewrite -->
+			<fig>
+				<image keyref="table_membr-mx-010-bx" scalefit="yes"/>
+			</fig>
+		</section>
+		<section>
+			<fig>
+				<image keyref="il_membr-mx-010-bx" scalefit="yes"/>
+			</fig>
 		</section>
 	</refbody>
 </reference>
