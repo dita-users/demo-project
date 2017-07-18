@@ -1,19 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
-	<title>keymap: Grafiken</title>
+	<title>keymap: GUI controls</title>
 
 	<topicgroup>
 		<topicmeta>
-			<navtitle>allgemeines</navtitle>
+			<navtitle>GUI controls</navtitle>
 		</topicmeta>
 
-		<!--<keydef keys="" href="" format="PNG" navtitle="">
+		<keydef keys="ctrl_menu">
 			<topicmeta>
-				<navtitle></navtitle>
-				<linktext></linktext>
+				<keywords>
+					<keyword>MENU</keyword>
+				</keywords>
 			</topicmeta>
-		</keydef>-->
+		</keydef>
 
+		<keydef keys="ctrl_arrdown">
+			<topicmeta>
+				<keywords>
+					<keyword>▼</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="ctrl_arrup">
+			<topicmeta>
+				<keywords>
+					<keyword>▲</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="ctrl_ok">
+			<topicmeta>
+				<keywords>
+					<keyword>OK</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="led_alarm">
+			<topicmeta>
+				<keywords>
+					<keyword>ALARM</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		
+		<keydef keys="led_power">
+			<topicmeta>
+				<keywords>
+					<keyword>POWER</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		
+		<keydef keys="led_1">
+			<topicmeta>
+				<keywords>
+					<keyword>LED1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		
+		<keydef keys="led_2">
+			<topicmeta>
+				<keywords>
+					<keyword>LED2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		
+		<keydef keys="led_3">
+			<topicmeta>
+				<keywords>
+					<keyword>LED3</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		
 	</topicgroup>
 </map>
