@@ -5,7 +5,7 @@
 	<troublebody>
 		<troubleSolution>
 			<cause>
-				<title>unlogischer Reihenfolge der Schwimmer im Tank3/Vorratsbehälter</title>
+				<title>unlogischer Reihenfolge der Schwimmer im Tank<keyword keyref="group-num-sw"/>/Vorratsbehälter</title>
 				<p>z.B.: wenn 1S2 aus ist kann 1S3 nicht an sein</p>
 			</cause>
 			<remedy>

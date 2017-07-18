@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA 1.3 Troubleshooting//EN" "troubleshooting.dtd">
 <troubleshooting xml:lang="de-DE" id="trbl_fehler-beluefter-t1">
-	<title>Fehler Belüfter T1</title>
+	<title>Fehler Belüfter T<keyword keyref="group-num-gw"/></title>
 	<troublebody>
 		<troubleSolution conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_trbl-leaking-tube"/>
 		<troubleSolution conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_trbl-def-sensor"/>

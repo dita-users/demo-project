@@ -560,6 +560,29 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>clevertank.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>CleverTank 10000 - PDF</String>
+                                        <String>CleverTank 1500 - PDF</String>
+                                        <String>CleverTank 3000 - PDF</String>
+                                        <String>CleverTank 4500 - PDF</String>
+                                        <String>CleverTank 6000 - PDF</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>xsl/10_prepareIndexHtml.xsl</String>
                                 </field>
                                 <field name="scenarioIds">

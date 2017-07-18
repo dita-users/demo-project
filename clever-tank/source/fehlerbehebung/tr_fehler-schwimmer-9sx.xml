@@ -8,7 +8,7 @@
 		</condition>
 		<troubleSolution>
 			<cause>
-				<title>unlogischer Reihenfolge der Schwimmer im Tank2/Vorratsbehälter</title>
+				<title>unlogischer Reihenfolge der Schwimmer im Tank<keyword keyref="group-num-f"/>/Vorratsbehälter</title>
 				<p>z.B.: wenn 9S5 aus ist kann 9S6 nicht an sein</p>
 			</cause>
 			<remedy>
