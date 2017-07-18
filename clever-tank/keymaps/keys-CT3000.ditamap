@@ -205,6 +205,139 @@
 		</keydef>-->
 	</topicgroup>
 
+	<!-- ######### TECH DATA SHEET: ######## -->
+	<topicgroup>
+		<topicmeta>
+			<navtitle translate="no">Tech data sheet</navtitle>
+		</topicmeta>
+		<keydef keys="td_hight">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 1770mm</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_width">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 2740mm</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_depth">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 2020mm</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_max-weight">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 5750kg</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-gw-in">
+			<topicmeta>
+				<keywords>
+					<keyword>DN160</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-gw-over">
+			<topicmeta>
+				<keywords>
+					<keyword>DN160</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-sw-over">
+			<topicmeta>
+				<keywords>
+					<keyword>DN75</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-potw-back-nom">
+			<topicmeta>
+				<keywords>
+					<keyword>1&#8243; Nennweite</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-potw-back">
+			<topicmeta>
+				<keywords>
+					<keyword>20mm</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-sw-transf">
+			<topicmeta>
+				<keywords>
+					<keyword>2&#8243;</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_membr-area">
+			<topicmeta>
+				<keywords>
+					<keyword>6,4m&#178;</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_capacity">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 3000l/Tag</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_vol-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 1800l</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_vol-f">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 1900l</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_vol-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 1900l</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_supply-volt">
+			<topicmeta>
+				<keywords>
+					<keyword>230V/50Hz</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_backup-fuse">
+			<topicmeta>
+				<keywords>
+					<keyword>16A</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_max-power">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 650W</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+	</topicgroup>
+
 	<!-- ######### GRAPHICS: ######## -->
 	<topicgroup>
 		<topicmeta>
