@@ -7,8 +7,7 @@
 			<hazardstatement type="attention">
 				<messagepanel>
 					<typeofhazard>Bei Nichtbefolgen verfallen die Gewährleistungsansprüche!</typeofhazard>
-					<howtoavoid>Führen Sie zuerst die ordnungsgemäße Aufstellung und Installation der Anlage, dann überprüfen Sie die Dichtigkeit aller Wasserverbindungen, befor Sie die
-						Elektroinstallation durchführen.</howtoavoid>
+					<howtoavoid>Führen Sie zuerst die ordnungsgemäße Aufstellung und Installation der Anlage, dann überprüfen Sie die Dichtigkeit aller Wasserverbindungen, befor Sie die Elektroinstallation durchführen.</howtoavoid>
 					<howtoavoid>Vermeiden Sie die Manipulation anderer Anlagenkomponenten, des Steuerungsmoduls, der Pumpen oder der einzelnen Zusatzbauteile.</howtoavoid>
 				</messagepanel>
 			</hazardstatement>

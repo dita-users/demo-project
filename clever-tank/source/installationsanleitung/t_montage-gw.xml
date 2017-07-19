@@ -21,8 +21,7 @@
 			</step>
 			<step otherprops="tank-gw-connect"><cmd>Die Grauwasser-Behälter (<keyword keyref="gw-tanks"/> Stück) mit beiliegenden Verbindungsleitungen zum Entlüften oben und zum Niveauausgleich vorne untereinander verbinden.</cmd></step>
 			<step>
-				<cmd>Der Schlauch der Förderpumpe<ph otherprops="tank-gw-connect"> (<keyword keyref="gw-pumps"/> Stück)</ph> an den dafür vorgesehenen Stutzen der Baugruppe <keyword keyref="group-num-after-gw"/> anschließen (Bezeichnungen/Farbmarkierung
-					beachten).</cmd>
+				<cmd>Der Schlauch der Förderpumpe<ph otherprops="tank-gw-connect"> (<keyword keyref="gw-pumps"/> Stück)</ph> an den dafür vorgesehenen Stutzen der Baugruppe <keyword keyref="group-num-after-gw"/> anschließen (Bezeichnungen/Farbmarkierung beachten).</cmd>
 			</step>
 		</steps>
 	</taskbody>

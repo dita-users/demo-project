@@ -575,23 +575,6 @@
                             </scenarioAssociation>
                             <scenarioAssociation>
                                 <field name="url">
-                                    <String>xsl/20_fixStructure.xsl</String>
-                                </field>
-                                <field name="scenarioIds">
-                                    <list>
-                                        <String>20_fixStructure</String>
-                                        <String>30_html2indd</String>
-                                    </list>
-                                </field>
-                                <field name="scenarioTypes">
-                                    <list>
-                                        <String>XML</String>
-                                        <String>XML</String>
-                                    </list>
-                                </field>
-                            </scenarioAssociation>
-                            <scenarioAssociation>
-                                <field name="url">
                                     <String>xsl/html2indd_1.1.xsl</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -604,6 +587,23 @@
                                 <field name="scenarioTypes">
                                     <list>
                                         <String>XML</String>
+                                        <String>XML</String>
+                                        <String>XML</String>
+                                    </list>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
+                                    <String>xsl/20_fixStructure.xsl</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>20_fixStructure</String>
+                                        <String>30_html2indd</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
                                         <String>XML</String>
                                         <String>XML</String>
                                     </list>
