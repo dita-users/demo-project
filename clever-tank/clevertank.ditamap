@@ -24,7 +24,7 @@
 	<mapref href="source/fehlerbehebung/s_fehlerbehebung.ditamap"/>
 	<mapref href="source/ausserbetriebnahme/s_ausserbetriebnahme.ditamap"/>
 	<topicref keys="r_tech-data" href="source/allgemeines/r_technische-daten.xml"/>
-	<topicref href="source/allgemeines/r_garantie.xml"/>
+	<topicref href="source/allgemeines/r_garantie.md" format="markdown"/>
 	<topicref href="source/allgemeines/r_kontakt.xml"/>
 	<topicref href="source/allgemeines/r_ce-konformitaetserklaerung.xml"/>
 	<mapref href="source/anhang/s_anhang.ditamap"/>
