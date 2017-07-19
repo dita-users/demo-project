@@ -17,6 +17,7 @@
 
 	<!-- #### CONTENT #### -->
 	<topicref href="source/allgemeines/c_bestimmgms-bedienung.xml" format="dita" type="concept"/>
+	<!-- ToDo: revise SiHis, use hazardstatements in a sihi-warehouse -->
 	<topicref href="source/allgemeines/r_sicherheitshinweise.xml" format="dita" type="reference"/>	
 	<mapref href="source/geraetebeschreibung/s_geraetebeschreibung.ditamap"/>
 	<mapref href="source/installationsanleitung/s_installationsanleitung.ditamap"/>
