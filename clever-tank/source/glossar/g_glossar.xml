@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
 <glossgroup xml:lang="de-DE" id="gg_g_glossar">
-  <title>${caret}</title>
-  <glossentry id="ddl">
-    <glossterm></glossterm>
-    <glossdef></glossdef>
-  </glossentry>
+	<title>Glossar</title>
+	<glossentry id="g_gw">
+		<glossterm>Grauwasser</glossterm>
+		<glossdef>Die <i>EN 12056-1</i> definiert Grauwasser als fäkalienfreies, gering verschmutztes Abwasser, wie es etwa beim Duschen, Baden oder Händewaschen anfällt, aber
+			auch aus der Waschmaschine kommt und zur Aufbereitung zu Brauchs- bzw. Betriebswasser dienen kann. Eine Grauwasseraufbereitungsanlage dient also ausschließlich der
+			Aufbereitung und Wiederverwendung von gering belastetem fäkalienfreiem Abwasser.</glossdef>
+	</glossentry>
+	<glossentry id="g_sw">
+		<glossterm>Betriebswasser</glossterm>
+		<glossdef/>
+	</glossentry>
+	<glossentry id="g_potw">
+		<glossterm>Trinkwasser</glossterm>
+		<glossdef/>
+	</glossentry>
+	<glossentry id="g_gw-system">
+		<glossterm>Grauwasseranlage</glossterm>
+		<glossdef/>
+	</glossentry>
+	<glossentry id="g_dea">
+		<glossterm>Druckerhöhungsanlage (DEA)</glossterm>
+		<glossdef/>
+	</glossentry>
 </glossgroup>
