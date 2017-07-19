@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all" version="2.0">
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+	xmlns:html="http://www.w3.org/1999/xhtml" exclude-result-prefixes="#all" version="2.0">
 
 	<xsl:output indent="no" method="xml"/>
 	<xsl:strip-space elements="*"/>
@@ -84,22 +85,22 @@
 		<section data-type="Chapter">
 			<xsl:variable name="topicRef" select="document(concat($path2html, html:a/@href))"/>
 			<xsl:apply-templates select="$topicRef/html:html/html:body"/>
-			<xsl:apply-templates select="html:ul/html:li"></xsl:apply-templates>
+			<xsl:apply-templates select="html:ul/html:li"/>
 		</section>
 	</xsl:template>
-	
-	
-	
+
+
+
 	<!-- Submap in Content -->
 	<xsl:template match="html:div[@class = 'related-links']" priority="1000">
 		<!-- delete  -->
 	</xsl:template>
-	
+
 
 	<xsl:template match="html:div" priority="1">
 		<xsl:apply-templates/>
 	</xsl:template>
-		
+
 
 
 	<!-- ***************************************************************************************************************************************** -->
@@ -140,80 +141,80 @@
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
-	
-	
+
+
 	<!-- ***************************************************************************************************************************************** -->
 	<!--  Listen unordered -->
 	<!-- ***************************************************************************************************************************************** -->
-	
+
 	<xsl:template match="html:ul">
 		<xsl:apply-templates/>
 	</xsl:template>
-	
+
 	<xsl:template match="html:li[html:p]">
 		<xsl:apply-templates/>
 	</xsl:template>
-	
+
 	<xsl:template match="html:li[parent::html:ul][not(html:p)]" priority="-0.3">
 		<p class="p_L1">
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
-	
+
 	<xsl:template match="html:p[not(preceding-sibling::*)][parent::html:li/parent::html:ul]">
 		<p class="p_L1">
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
-	
+
 	<xsl:template match="html:p[preceding-sibling::*][parent::html:li/parent::html:ul]">
 		<p class="p_L1_Fortsetzung">
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
-	
+
 	<!-- ***************************************************************************************************************************************** -->
 	<!--  Listen ordered -->
 	<!-- ***************************************************************************************************************************************** -->
-	
+
 	<xsl:template match="html:ol">
 		<xsl:apply-templates/>
 	</xsl:template>
-	
-	
+
+
 	<xsl:template match="html:li[parent::html:ol][not(html:p)]" priority="-0.3">
 		<p class="p_L1o">
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
-	
+
 	<xsl:template match="html:p[not(preceding-sibling::*)][parent::html:li/parent::html:ol]">
 		<p class="p_L1o">
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
-	
+
 	<xsl:template match="html:p[preceding-sibling::*][parent::html:li/parent::html:ol]">
 		<p class="p_L1o_Fortsetzung">
 			<xsl:apply-templates/>
 		</p>
 	</xsl:template>
-	
-	
+
+
 	<!-- ***************************************************************************************************************************************** -->
 	<!--  Zeichenformate -->
 	<!-- ***************************************************************************************************************************************** -->
-	<xsl:template match="html:strong|html:span[@html:class = 'keyword']" priority="1000">
+	<xsl:template match="html:strong | html:span[@html:class = 'keyword']" priority="1000">
 		<span class="bold">
 			<xsl:apply-templates/>
 		</span>
 	</xsl:template>
-	
+
 	<!-- ***************************************************************************************************************************************** -->
 	<!--  Tabellen -->
 	<!-- ***************************************************************************************************************************************** -->
-	
-	<xsl:template match="html:table">
+
+	<xsl:template match="html:table[html:col]">
 		<p class="p_Anker_Tabelle">
 			<table>
 				<colgroup>
@@ -222,10 +223,11 @@
 						<col width="{$colWidth}"/>
 					</xsl:for-each>
 				</colgroup>
-				<xsl:apply-templates select="html:thead/*|html:tbody/*|html:tfooter/*|html:tr"/>
+				<xsl:apply-templates select="html:thead/* | html:tbody/* | html:tfooter/* | html:tr"
+				/>
 			</table>
 		</p>
 	</xsl:template>
-	
+
 
 </xsl:stylesheet>

@@ -8,18 +8,16 @@
 			<image keyref="il_assembly"/>
 		</fig>
 		<ul>
-			<li otherprops="tank-gwf"><p><b>Baugruppe <keyword keyref="group-num-gw"/>: </b>Grauwasser sammeln, vorreinigen und filtern</p><p>In der ersten Baugruppe wird das anfallende
-					Grauwasser gesammelt, vorgereinigt und gefiltert.</p></li>
-			<li otherprops="tank-gw"><p><b>Baugruppe <keyword keyref="group-num-gw"/>: </b>Grauwasser sammeln und vorreinigen</p><p>In der ersten Baugruppe wird das anfallende Grauwasser
-					gesammelt und vorgereinigt.</p></li>
-			<li otherprops="tank-f"><p><b>Baugruppe <keyword keyref="group-num-f"/>: </b>Grauwasserfiltrierung</p><p>Die nächste Baugruppe dient zur Grauwasserfiltrierung mit den <keyword
-						keyref="prod-series"/> Membranmodulen.</p></li>
-			<li><p><b>Baugruppe <keyword keyref="group-num-sw"/>: </b>Betriebswasserspeicher</p><p>In der nächsten Baugruppe wird das filtrierte Grauwasser als Betriebswasser gespeichert.
-					Zusätzlich verfügt der letzte Tank über eine Trinkwassernachspeisung um die Versorgung des Betriebswassernetzes sicher zu stellen.</p></li>
-			<li><p><b>Baugruppe <keyword keyref="group-num-ctrl"/>: </b>Steuerung</p><p>Die <keyword keyref="prod-series"/> Grauwasseranlagen sind mit einer vollautomatischen
-					Steuerung-Baugruppe zum Steuern und Überwachen ausgestattet. Sie verfügt über
-					einen potential freien Kontakt zur Einbindung von Störmeldungen in die
-					Gebäudetechnik.</p></li>
+			<li otherprops="tank-gwf">
+				<p><b>Baugruppe <keyword keyref="group-num-gw"/>: </b>Grauwasser sammeln, vorreinigen und filtern</p><p>In der ersten Baugruppe wird das anfallende Grauwasser gesammelt, vorgereinigt und gefiltert.</p></li>
+			<li otherprops="tank-gw">
+				<p><b>Baugruppe <keyword keyref="group-num-gw"/>: </b>Grauwasser sammeln und vorreinigen</p><p>In der ersten Baugruppe wird das anfallende Grauwasser gesammelt und vorgereinigt.</p></li>
+			<li otherprops="tank-f">
+				<p><b>Baugruppe <keyword keyref="group-num-f"/>: </b>Grauwasserfiltrierung</p><p>Die nächste Baugruppe dient zur Grauwasserfiltrierung mit den <keyword keyref="prod-series"/> Membranmodulen.</p></li>
+			<li>
+				<p><b>Baugruppe <keyword keyref="group-num-sw"/>: </b>Betriebswasserspeicher</p><p>In der nächsten Baugruppe wird das filtrierte Grauwasser als Betriebswasser gespeichert. Zusätzlich verfügt der letzte Tank über eine Trinkwassernachspeisung um die Versorgung des Betriebswassernetzes sicher zu stellen.</p></li>
+			<li>
+				<p><b>Baugruppe <keyword keyref="group-num-ctrl"/>: </b>Steuerung</p><p>Die <keyword keyref="prod-series"/> Grauwasseranlagen sind mit einer vollautomatischen Steuerung-Baugruppe zum Steuern und Überwachen ausgestattet. Sie verfügt über einen potential freien Kontakt zur Einbindung von Störmeldungen in die Gebäudetechnik.</p></li>
 		</ul>
 		<p>Je nach Anlagentyp können die Tankvolumen variieren.</p>
 	</conbody>

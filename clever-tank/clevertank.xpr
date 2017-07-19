@@ -598,10 +598,12 @@
                                     <list>
                                         <String>20_fixStructure</String>
                                         <String>30_html2indd</String>
+                                        <String>10_prepareIndexHtml</String>
                                     </list>
                                 </field>
                                 <field name="scenarioTypes">
                                     <list>
+                                        <String>XML</String>
                                         <String>XML</String>
                                         <String>XML</String>
                                     </list>

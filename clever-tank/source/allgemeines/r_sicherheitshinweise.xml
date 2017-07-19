@@ -6,32 +6,23 @@
 		<section>
 			<note type="caution">Kennzeichnungspflicht aller Betriebswasserleitungen mit „KEIN TRINKWASSER“! Verwenden Sie z.B. ein <keyword keyref="prod-series"/>-Kennzeichnungspaket.</note>
 			<note type="important"><b>Trinkwasserverordnung (TrinkwV 2001) § 13 (3)</b>
-				<q>Der Unternehmer und der sonstige Inhaber von Anlagen, die zur Entnahme oder Abgabe von Wasser bestimmt sind, das nicht die Qualität von Wasser für den menschlichen Gebrauch
-					hat und die im Haushalt zusätzlich zu den Wasserversorgungsanlagen im Sinne des § 3 Nr. 2 installiert werden, haben diese Anlagen der zuständigen Behörde bei
-					Inbetriebnahme anzuzeigen. Soweit solche Anlagen bereits betrieben werden, ist die Anzeige unverzüglich zu erstatten.</q> (siehe <xref
+				<q>Der Unternehmer und der sonstige Inhaber von Anlagen, die zur Entnahme oder Abgabe von Wasser bestimmt sind, das nicht die Qualität von Wasser für den menschlichen Gebrauch hat und die im Haushalt zusätzlich zu den Wasserversorgungsanlagen im Sinne des § 3 Nr. 2 installiert werden, haben diese Anlagen der zuständigen Behörde bei Inbetriebnahme anzuzeigen. Soweit solche Anlagen bereits betrieben werden, ist die Anzeige unverzüglich zu erstatten.</q> (siehe <xref
 					href="../anhang/r_anzeige-betriebswasseranlage.xml" format="dita"/>)</note>
 			<note type="important"><b>Abwasserverordnung AbwV § 3 (2)</b>
-				<q>Vor der Errichtung einer Eigengewinnungsanlage hat der Kunde dem Wasserversorgungsunternehmen Mitteilung zu machen. Der Kunde hat durch geeignete Maßnahmen sicherzustellen,
-					dass von seiner Eigenanlage keine Rückwirkungen in das öffentliche Wasserversorgungsnetz möglich sind.</q> (siehe <xref
+				<q>Vor der Errichtung einer Eigengewinnungsanlage hat der Kunde dem Wasserversorgungsunternehmen Mitteilung zu machen. Der Kunde hat durch geeignete Maßnahmen sicherzustellen, dass von seiner Eigenanlage keine Rückwirkungen in das öffentliche Wasserversorgungsnetz möglich sind.</q> (siehe <xref
 					href="../anhang/r_anzeige-wasserversorgungsunternehmen.xml" format="dita"/>)</note>
 			<note type="restriction">Der Einbau hat durch geschultes Fachpersonal zu erfolgen.</note>
 			<note type="caution">Bei Installation sind die gängigen technischen Regeln der Hausinstallation (<i>DIN1988</i>, <i>EN1717</i>) zu Beachten.</note>
 			<note type="caution">Die Anlage muss eine eigene Absicherung (FI) aufweisen.</note>
 			<note type="caution">Der Aufstellraum muss mit einem Bodenablauf versehen sein.</note>
-			<note type="caution">Die Grauwassersammelleitungen müssen so entlüftet sein, dass in das Abwassersystem eingeblasene Luft über die Entlüftung der Grauwassersammelleitung frei
-				entweichen kann.</note>
+			<note type="caution">Die Grauwassersammelleitungen müssen so entlüftet sein, dass in das Abwassersystem eingeblasene Luft über die Entlüftung der Grauwassersammelleitung frei entweichen kann.</note>
 			<note>Bei sachgerechtem Betrieb erreicht das aufbereitete Grauwasser die Qualität gemäß der <i>EU-Badegewässer</i>-Richtlinie.</note>
 			<note type="danger">Bei der Durchführung sämtlicher Wartungs – und Reparaturarbeiten ist <b>die Anlage Spannungsfrei zu schalten</b>.</note>
-			<note type="restriction">Die Entleerung des Grauwasserbehälters darf nur durch geschultes Service-Personal vorgenommen werden. Das Austrocknen des Filters führt zur Zerstörung der
-				Membrane.</note>
-			<note type="caution"><p>Die <i>EN 12056-1</i> definiert Grauwasser als fäkalienfreies, gering verschmutztes Abwasser, wie es etwa beim Duschen, Baden oder Händewaschen anfällt, aber
-					auch aus der Waschmaschine kommt und zur Aufbereitung zu Brauchs- bzw. Betriebswasser dienen kann. Eine Grauwasseraufbereitungsanlage dient also ausschließlich der
-					Aufbereitung und Wiederverwendung von gering belastetem fäkalienfreiem Abwasser.</p>
+			<note type="restriction">Die Entleerung des Grauwasserbehälters darf nur durch geschultes Service-Personal vorgenommen werden. Das Austrocknen des Filters führt zur Zerstörung der Membrane.</note>
+			<note type="caution"><p>Die <i>EN 12056-1</i> definiert Grauwasser als fäkalienfreies, gering verschmutztes Abwasser, wie es etwa beim Duschen, Baden oder Händewaschen anfällt, aber auch aus der Waschmaschine kommt und zur Aufbereitung zu Brauchs- bzw. Betriebswasser dienen kann. Eine Grauwasseraufbereitungsanlage dient also ausschließlich der Aufbereitung und Wiederverwendung von gering belastetem fäkalienfreiem Abwasser.</p>
 				<p>Ein Küchenablauf sollte wegen der enthaltenen Fette nicht angeschlossen werden.</p>
-				<p>Für hochbelastete Abwässer von Toiletten, Küchenabläufen oder Waschmaschinen werden die Qualitätsziele der Aufbereitung nicht erreicht und eine Beschädigung der Membrane
-					kann nicht ausgeschlossen werden.</p>
-				<p>Die Zuleitung von stark alkalischen Reinigungsmitteln (Chlorreiniger etc.), Dispersionsfarben, Lacken, Haarfärbemittel, Ölen und Fetten beeinträchtigt die Leistung der
-					Membrane und die Qualität des Betriebswassers und ist zu unterbinden. Insbesondere größere Mengen Fett und Öl können die Membrane irreversibel beschädigen.</p></note>
+				<p>Für hochbelastete Abwässer von Toiletten, Küchenabläufen oder Waschmaschinen werden die Qualitätsziele der Aufbereitung nicht erreicht und eine Beschädigung der Membrane kann nicht ausgeschlossen werden.</p>
+				<p>Die Zuleitung von stark alkalischen Reinigungsmitteln (Chlorreiniger etc.), Dispersionsfarben, Lacken, Haarfärbemittel, Ölen und Fetten beeinträchtigt die Leistung der Membrane und die Qualität des Betriebswassers und ist zu unterbinden. Insbesondere größere Mengen Fett und Öl können die Membrane irreversibel beschädigen.</p></note>
 		</section>
 	</refbody>
 </reference>
