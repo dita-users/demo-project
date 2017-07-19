@@ -4,7 +4,46 @@
 	<title>CE-Konformitätserklärung </title>
 	<refbody>
 		<section>
-			<p/>
+			<title>EG-Konformitätserklärung
+				im Sinne der EG-Richtlinie
+			</title>
+			<p>Elektromagnetische Verträglichkeit 2004/108/EG</p>
+				<p>Niederspannungsrichtlinie 2006/95/EG</p>
+				<p>Maschinenrichtlinie 2006/42/EG</p>
+		</section>
+		<section>
+			<p>Hiermit erklären wir, dass nachfolgend bezeichnete Produkttypen aufgrund ihrer Konzipierung und Bauart sowie in der von uns in Verkehr gebrachten Ausführungen den grundlegenden Sicherheits- und Gesundheitsanforderungen der einschlägigen grundlegenden EG-Richtlinien entspricht. Bei einer mit uns nicht abgestimmten Änderung des Produktes verliert diese Erklärung ihre Gültigkeit.</p>
+		</section>
+		<section>
+			<table>
+				<tgroup cols="2">
+					<tbody>
+						<row>
+							<entry><p>Produktbezeichnung:</p></entry>
+							<entry><p>Grauwasseranlage</p></entry>
+						</row>
+						<row>
+							<entry><p>Typenbezeichnung:</p></entry>
+							<entry><p><keyword keyref="prod-name"/></p></entry>
+						</row>
+						<row>
+							<entry><p>Angewandte harmonisierte Normen:</p></entry>
+							<entry><p>EN 292; EN 60335-1; EN 60335-2-41;</p>
+								<p>EN 61000-6-1; EN 61000-6-3</p></entry>
+						</row>
+						<row>
+							<entry><p>Angewandte national Normen:</p></entry>
+							<entry><p>DIN 1988 Teil 4, DIN EN 1717</p></entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</section>
+		<section>
+			<p>Die Anlagen sind zur mehrstufigen Aufbereitung von Grauwasser und Bereitstellung von Betriebswasser vorgesehen. Die Anlagen sollen in einem trockenen, frostfreien und belüfteten Raum installiert
+				werden. Das Betreiben der Anlagen in Industrieumgebungen mit Staubentwicklung ist unzulässig. Der Betriebs- und Installationsanleitung ist unbedingt Folge zu leisten.</p>
+			<p>01.08.2012/ _____________</p>
+			<p>Datum / Hersteller</p>
 		</section>
 	</refbody>
 </reference>

@@ -75,5 +75,18 @@
 				<linktext>Membraneinheit UX-05</linktext>
 			</topicmeta>
 		</keydef>
+		
+		<keydef keys="form_sw-anzeige" href="../graphics/form_sw-anzeige.jpg" format="JPG" navtitle="Betriebswasser Anzeige">
+			<topicmeta>
+				<navtitle>Betriebswasser Anzeige</navtitle>
+				<linktext>Betriebswasser Anzeige</linktext>
+			</topicmeta>
+		</keydef>
+		<keydef keys="form_wasserversorger-anzeige" href="../graphics/form_wasserversorger-anzeige.jpg" format="JPG" navtitle="Wasserversorger Anzeige">
+			<topicmeta>
+				<navtitle>Wasserversorger Anzeige</navtitle>
+				<linktext>Wasserversorger Anzeige</linktext>
+			</topicmeta>
+		</keydef>
 	</topicgroup>
 </map>

@@ -16,7 +16,8 @@
 	<topicref href="source/warehouse/reuse_trbl-elements.xml" format="dita" processing-role="resource-only"/>
 
 	<!-- #### CONTENT #### -->
-	<mapref href="source/sicherheitshinweise/s_sicherheitshinweise.ditamap"/>
+	<topicref href="source/allgemeines/c_bestimmgms-bedienung.xml" format="dita" type="concept"/>
+	<topicref href="source/allgemeines/r_sicherheitshinweise.xml" format="dita" type="reference"/>	
 	<mapref href="source/geraetebeschreibung/s_geraetebeschreibung.ditamap"/>
 	<mapref href="source/installationsanleitung/s_installationsanleitung.ditamap"/>
 	<mapref href="source/bedienungsanleitungen/s_bedienungsanleitungen.ditamap"/>
