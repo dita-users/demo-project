@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_installationsanleitung">
+	<title>Installationsanleitung </title>
+	<taskbody>
+		<context>
+			<hazardstatement type="attention">
+				<messagepanel>
+					<typeofhazard>Bei Nichtbefolgen verfallen die Gewährleistungsansprüche!</typeofhazard>
+					<howtoavoid>Führen Sie zuerst die ordnungsgemäße Aufstellung und Installation der Anlage, dann überprüfen Sie die Dichtigkeit aller Wasserverbindungen, befor Sie die
+						Elektroinstallation durchführen.</howtoavoid>
+					<howtoavoid>Vermeiden Sie die Manipulation anderer Anlagenkomponenten, des Steuerungsmoduls, der Pumpen oder der einzelnen Zusatzbauteile.</howtoavoid>
+				</messagepanel>
+			</hazardstatement>
+			<p>Überblick der Aufstellung und Installation:</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Tank ausrichten und positionieren</cmd>
+			</step>
+			<step>
+				<cmd>Tanks verbinden</cmd>
+			</step>
+			<step>
+				<cmd>Überlauf montieren (Rückstauvorrichtung bzw. Hebeanlage bauseitig)</cmd>
+			</step>
+			<step>
+				<cmd>Druckerhöhung mit Tank verbinden</cmd>
+			</step>
+			<step>
+				<cmd>Trinkwassernachspeisung verbinden</cmd>
+			</step>
+			<step>
+				<cmd>Zulauf verbinden</cmd>
+			</step>
+			<step>
+				<cmd>Druckerhöhung mit Betriebswassernetz verbinden</cmd>
+			</step>
+			<step>
+				<cmd>Elektrisch verbinden</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

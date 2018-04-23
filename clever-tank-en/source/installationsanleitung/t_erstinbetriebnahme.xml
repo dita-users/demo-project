@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_erstinbetriebnahme">
+	<title>Erstinbetriebnahme </title>
+	<taskbody>
+		<prereq>Wenn alle Punkte über den Aufstellraum und die Montage fachgerecht durchgeführt wurden, können Sie die Anlage in Betrieb nehmen.</prereq>
+		<context>
+			<p>Folgende Punkte nochmals kontrollieren und der Reihe nach erledigen.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Alle Verbindungen auf Dichtigkeit prüfen.</cmd>
+			</step>
+			<step>
+				<cmd>An dem Schaltschrank den Hauptschalter der Anlage auf <uicontrol>OFF</uicontrol> stellen.</cmd>
+			</step>
+			<step>
+				<cmd>Absperrhahn für die Trinkwasserleitung öffnen.</cmd>
+			</step>
+			<step>
+				<cmd>Die Druckleitung für Betriebswasser hinter einer externen Druckerhöhungsanlage geschlossen halten.</cmd>
+			</step>
+			<step>
+				<cmd>An dem Schaltschrank den Hauptschalter auf <uicontrol>ON</uicontrol> stellen.</cmd>
+			</step>
+			<step>
+				<cmd>Beim erstmaligen einschalten, müssen sie Datum und Uhrzeit einstellen und danach mit der Taste <uicontrol>OK</uicontrol> bestätigen.</cmd>
+				<stepresult><p>Die Anlage ist jetzt sofort im Automatikbetrieb.</p>
+					<p>Da die Baugruppe <keyword keyref="group-num-sw"/> noch kein Betriebswasser hat, öffnet sich direkt das Magnetventil der Trinkwassernachspeisung und füllt den Betriebswasserspeicher auf Minimum.</p><p>Nach Erreichen des Mindestwasserstands im Betriebswasserbehälter schaltet das Magnetventil direkt ab und der Absperrhahn in der Druckleitung für Betriebswasser kann geöffnet werden.</p></stepresult>
+			</step>
+			<step>
+				<cmd>Die externe Druckerhöhungsanlage jetzt in Betrieb nähmen. (siehe Bedienungsanleitung Hersteller Druckerhöhung).</cmd>
+			</step>
+			<step>
+				<cmd>Über den Grauwasserzulauf sollte jetzt Grauwasser in die erste Baugruppe fließen. Bitte lassen sie gegebenenfalls einige angeschlossenen Duschen, Badewannen oder Handwaschbecken laufen, solange bis die Baugruppe <keyword keyref="group-num-gw"/> ausreichend mit Wasser gefüllt ist.</cmd>
+			</step>
+			<step>
+				<cmd>Das Wasser wird in Zeitintervallen belüftet.</cmd>
+			</step>
+			<step>
+				<cmd>Bei Erreichen des max. Füllstands in Baugruppe <keyword keyref="group-num-gw"/> die Förderpumpe im Handbetrieb in Baugruppe <keyword keyref="group-num-f"/> fördern lassen bis die Membranen min. 5cm mit Wasser bedeckt sind. (siehe Bedienung der Steuerung)</cmd>
+			</step>
+		</steps>
+		<result><p>Die Anlage kann jetzt im Automatikbetrieb verwendet werden.</p>
+			<p>Erst wenn ausreichend Grauwasser in die Anlage nachgelaufen ist und die Füllstände in den Grauwasser- und Filterung-Baugruppen auf max. sind wird das Grauwasser filtriert und in Baugruppe <keyword keyref="group-num-sw"/> gesammelt.</p></result>
+	</taskbody>
+</task>

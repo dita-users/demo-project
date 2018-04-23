@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="msx_4jb_41b">
+	<title>Baugruppe <keyword keyref="group-num-gw"/> montieren</title>
+	<taskbody>
+		<context>
+			<p>Alle Anschlussmaße entnehmen sie bitte den Technischen Daten.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Der Grauwasserzulauf vom Gebäude bauseitig herstellen.</cmd>
+			</step>
+			<step>
+				<cmd>Zulauf anschließen.</cmd>
+				<info><p>Über den Zulauf muss eine Entlüftung gewährleistet sein.</p></info>
+			</step>
+			<step>
+				<cmd>Überlauf anschließen.</cmd>
+				<info><p>Der Grauwasserüberlauf muss eine bauseitige Verbindung zur bestehenden Abwasserleitung haben.</p>
+					<p>Bitte sorgen sie für eine ausreichende Rückstauvorrichtung in der Überlaufleitung.</p></info>
+			</step>
+			<step otherprops="tank-gw-connect"><cmd>Die Grauwasser-Behälter (<keyword keyref="gw-tanks"/> Stück) mit beiliegenden Verbindungsleitungen zum Entlüften oben und zum Niveauausgleich vorne untereinander verbinden.</cmd></step>
+			<step>
+				<cmd>Der Schlauch der Förderpumpe<ph otherprops="tank-gw-connect"> (<keyword keyref="gw-pumps"/> Stück)</ph> an den dafür vorgesehenen Stutzen der Baugruppe <keyword keyref="group-num-after-gw"/> anschließen (Bezeichnungen/Farbmarkierung beachten).</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

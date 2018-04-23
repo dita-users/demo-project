@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="c4v_tjb_41b">
+	<title>Baugruppe <keyword keyref="group-num-sw"/> montieren</title>
+	<taskbody>
+		<context>
+			<p>Der Übergabepunkt des Betriebswassers ist an diesen Tank angebracht. Hier kann z.B. eine externe Druckerhöhungsanlage angeschlossen werden.</p>
+			<p>Alle Anschlussmaße entnehmen sie bitte den Technischen Daten.</p>
+		</context>
+		<steps>
+			<step otherprops="tank-sw-connect"><cmd>Die Betriebswasserspeicher-Behälter (<keyword keyref="sw-tanks"/> Stück) mit einer beiliegender Verbindungsleitung untereinander verbinden.</cmd></step>
+			<step>
+				<cmd>Überlauf des Betriebswasserbehälters bauseitig an die bestehende Abwasserleitung installieren und anschließen.</cmd>
+			</step>
+			<step>
+				<cmd>Zur Sicherstellung der Versorgung des Betriebswassernetzes, die Trinkwassernachspeisung mittels Druckleitung bauseitig anschließen.</cmd>
+			</step>
+			<step>
+				<cmd>Schlauch der Filtrationspumpe<ph otherprops="tank-f-connect"> (<keyword keyref="f-perms"/> Stück)</ph> von Baugruppe <keyword keyref="group-num-before-sw"/> anschließen.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

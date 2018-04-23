@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_bedienelemente">
+	<title>Bedienelemente </title>
+	<refbody>
+		<section>
+			<p>Die Steuerung besteht aus 4 Tasten und einem Display, an dem Funktionen, Betriebsparameter und Fehler eingestellt bzw. abgelesen werden können, und 5 Leuchtdioden.</p>
+			<p>Das Display verfügt über eine zweizeilige Anzeige.</p>
+			<fig>
+				<image keyref="il_ctrl-panel-ct" scalefit="yes"/>
+			</fig>
+			<p>Die Tasten <uicontrol keyref="ctrl_menu"/>, <uicontrol keyref="ctrl_arrdown"/>, <uicontrol keyref="ctrl_arrup"/> und <uicontrol keyref="ctrl_ok"/> sind zum Einstellen und Anzeigen
+				einzelner Menüpunkte.</p>
+		</section>
+	</refbody>
+</reference>

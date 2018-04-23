@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_technische-daten">
+	<title>Technische Daten </title>
+	<refbody>
+		<table>
+			<tgroup cols="2">
+				<colspec colwidth="2*"/>
+				<colspec colwidth="1*"/>
+				<thead>
+					<row>
+						<entry/>
+						<entry><keyword keyref="prod-name"/></entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>Höhe</entry>
+						<entry><keyword keyref="td_hight"/></entry>
+					</row>
+					<row>
+						<entry>Breite</entry>
+						<entry><keyword keyref="td_width"/></entry>
+					</row>
+					<row>
+						<entry>Tiefe</entry>
+						<entry><keyword keyref="td_depth"/></entry>
+					</row>
+					<row>
+						<entry>Gewicht gefüllt max.</entry>
+						<entry><keyword keyref="td_max-weight"/></entry>
+					</row>
+					<row>
+						<entry>Anschluss Grauwasserzulauf</entry>
+						<entry><keyword keyref="td_connect-gw-in"/></entry>
+					</row>
+					<row>
+						<entry>Anschluss Grauwasserüberlauf</entry>
+						<entry><keyword keyref="td_connect-gw-over"/></entry>
+					</row>
+					<row>
+						<entry>Anschluss Betriebswasserüberlauf</entry>
+						<entry><keyword keyref="td_connect-sw-over"/></entry>
+					</row>
+					<row>
+						<entry>Anschluss Trinkwassernachspeisung</entry>
+						<entry><p><keyword keyref="td_connect-potw-back-nom"/></p>
+							<p><keyword keyref="td_connect-potw-back"/></p>
+						</entry>
+					</row>
+					<row>
+						<entry>Anschluss Betriebswasserübergabe</entry>
+						<entry><keyword keyref="td_connect-sw-transf"/></entry>
+					</row>
+					<row>
+						<entry>Membranfläche</entry>
+						<entry><keyword keyref="td_membr-area"/></entry>
+					</row>
+					<row>
+						<entry>Aufbereitungsleistung</entry>
+						<entry><keyword keyref="td_capacity"/></entry>
+					</row>
+					<row otherprops="tank-gw">
+						<entry>Tankvolumen Baugruppe <keyword keyref="group-num-gw"/></entry>
+						<entry><keyword keyref="td_vol-gw"/></entry>
+					</row>
+					<row otherprops="tank-f tank-gwf">
+						<entry>Tankvolumen Baugruppe <keyword keyref="group-num-f"/></entry>
+						<entry><keyword keyref="td_vol-f"/></entry>
+					</row>
+					<row>
+						<entry>Tankvolumen Baugruppe <keyword keyref="group-num-sw"/></entry>
+						<entry><keyword keyref="td_vol-sw"/></entry>
+					</row>
+					<row>
+						<entry>Anschlussspannung</entry>
+						<entry><keyword keyref="td_supply-volt"/></entry>
+					</row>
+					<row>
+						<entry>Vorsicherung</entry>
+						<entry><keyword keyref="td_backup-fuse"/></entry>
+					</row>
+					<row>
+						<entry>Max. Leistungsaufnahme</entry>
+						<entry><keyword keyref="td_max-power"/></entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</refbody>
+</reference>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<?xml-model href="cleverTankRules1stDraft.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<concept id="testtopic">
+    <title>TestTopic</title>
+    <shortdesc>Test-Topics haben den einzigen Sinn, zu zeigen, was man mit einem Assisstenzsystem
+        alles machen und sicherstellen kann.</shortdesc>
+    <conbody>
+        <p>Klicken Sie <uicontrol>MyButton</uicontrol> in der Multifunktionsl</p>
+        <p>Test-Topics haben den einzigen Sinn, zu zeigen, was man mit einem Assisstenzsystem alles
+            machen und sicherstellen kann, ohne die Autoren zum ständigen Nachschlagen in
+            telefonbuchstarken Style Guides zu verdonnern. </p>
+        <p>Jetzt mal CT1500 und weitere CleverTank 1500 und noch die Serie CleverTank oder auch
+            CleverTank-Serie.</p>
+        <p>So, jetzt wollen wir mal sehen, was zur <keyword keyref="prod-name"/> zu sagen ist.
+            Schade, oder zur <keyword keyref="prod-name"/>, oder warum heute nicht mal die <keyword
+                keyref="prod-name"/>? Muss ja auch einer etwas drüber schreiben. Aber hallo,
+                <keyword keyref="prod-name"/>. Und über die <keyword keyref="prod-short"/> oder die
+                <keyword keyref="prod-short"/> habe ich noch kein Wort verloren. Wohingegen die
+            ganze Serie <keyword keyref="prod-series"/> schon berichtenswert ist. Auch <keyword
+                keyref="prod-series"/>-Serie lässt sich gut schreiben.<fig id="fig_qw2_qjn_41b">
+                <image placement="break" keyref="il_assembly" width="300" id="image_ibp_rjn_41b"/>
+            </fig></p>
+    </conbody>
+</concept>

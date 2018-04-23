@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+	<title>keymap: Produkt-Keys</title>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Produkt</navtitle>
+		</topicmeta>
+		<keydef keys="prod-series">
+			<topicmeta>
+				<keywords>
+					<keyword>CleverTank</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Unternehmen</navtitle>
+		</topicmeta>
+		<keydef keys="company-name">
+			<topicmeta>
+				<keywords>
+					<keyword>Wassertanktechnick GmbH</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="company-short">
+			<topicmeta>
+				<keywords>
+					<keyword>WTT</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Graphics</navtitle>
+		</topicmeta>
+		<keydef keys="">
+			<keydef keys="il_ctrl-panel-ct" href="../graphics/il_ctrl-panel-ct.jpg" format="JPG" navtitle="Steuerung">
+				<topicmeta>
+					<navtitle>Steuerung</navtitle>
+					<linktext>Steuerung</linktext>
+				</topicmeta>
+			</keydef>
+		</keydef>
+		<keydef keys="il_membr-mx-010-bx" href="../graphics/il_membr-mx-010-bx.png" format="PNG" navtitle="Membraneinheit MX-010-BX">
+			<topicmeta>
+				<navtitle>Membraneinheit MX-010-BX</navtitle>
+				<linktext>Membraneinheit MX-010-BX</linktext>
+			</topicmeta>
+		</keydef>
+		<!-- TODO: remove table-scan and rewrite as text -->
+		<keydef keys="table_membr-mx-010-bx" href="../graphics/table_membr-mx-010-bx.jpg" format="JPG" navtitle="Membraneinheit MX-010-BX">
+			<topicmeta>
+				<navtitle>Membraneinheit MX-010-BX</navtitle>
+				<linktext>Membraneinheit MX-010-BX</linktext>
+			</topicmeta>
+		</keydef>
+		<keydef keys="il_membr-ux-05" href="../graphics/il_membr-ux-05.png" format="PNG" navtitle="Membraneinheit UX-05">
+			<topicmeta>
+				<navtitle>Membraneinheit UX-05</navtitle>
+				<linktext>Membraneinheit UX-05</linktext>
+			</topicmeta>
+		</keydef>
+		<!-- TODO: remove table-scan and rewrite as text -->
+		<keydef keys="table_membr-ux-05" href="../graphics/table_membr-ux-05.jpg" format="JPG" navtitle="Membraneinheit UX-05">
+			<topicmeta>
+				<navtitle>Membraneinheit UX-05</navtitle>
+				<linktext>Membraneinheit UX-05</linktext>
+			</topicmeta>
+		</keydef>
+		
+		<keydef keys="form_sw-anzeige" href="../graphics/form_sw-anzeige.jpg" format="JPG" navtitle="Betriebswasser Anzeige">
+			<topicmeta>
+				<navtitle>Betriebswasser Anzeige</navtitle>
+				<linktext>Betriebswasser Anzeige</linktext>
+			</topicmeta>
+		</keydef>
+		<keydef keys="form_wasserversorger-anzeige" href="../graphics/form_wasserversorger-anzeige.jpg" format="JPG" navtitle="Wasserversorger Anzeige">
+			<topicmeta>
+				<navtitle>Wasserversorger Anzeige</navtitle>
+				<linktext>Wasserversorger Anzeige</linktext>
+			</topicmeta>
+		</keydef>
+	</topicgroup>
+</map>

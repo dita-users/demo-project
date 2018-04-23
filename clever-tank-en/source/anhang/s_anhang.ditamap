@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Anhang</title>
+	<topicref href="r_anhang.xml" navtitle="Anhang " format="dita" type="reference">
+		<topicref href="r_anzeige-betriebswasseranlage.xml" navtitle="Anzeige Betriebswasseranlage " format="dita" type="reference"/>
+		<topicref href="r_anzeige-wasserversorgungsunternehmen.xml" navtitle="Anzeige Wasserversorgungsunternehmen " format="dita" type="reference"/>
+		<!-- Membranes docs added in rootmap with processing-role ressource-only -->
+		<topicref keyref="r_docs-membr"/>
+		<topicref keys="r_docs-vents" href="r_dokumentation-wartung-beluefter.xml" navtitle="Dokumentation Wartung Belüfter " format="dita" type="reference"/>
+		<topicref keys="r_docs-perms" href="r_dokumentation-permeatpumpe.xml" navtitle="Dokumentation Permeatpumpe " format="dita" type="reference"/>
+		<topicref keys="r_docs-dwf" href="r_dokumentation-trinkwassernachspeisung.xml" navtitle="Dokumentation Trinkwassernachspeisung " format="dita" type="reference"/>
+		<topicref keys="r_feedpump" href="r_foerderpumpe.xml" navtitle="Förderpumpe " format="dita" type="reference"/>
+	</topicref>
+</map>

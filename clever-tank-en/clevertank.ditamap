@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title><keyword keyref="prod-name"/> Operating &amp; Installation Manual</title>
+	<!-- #### KEYS SECTION #### -->
+	<mapref href="keymaps/keys-allg.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-GUI.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT3000.ditamap" product="ct3000" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT1500.ditamap" product="ct1500" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT4500.ditamap" product="ct4500" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT6000.ditamap" product="ct6000" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT10000.ditamap" product="ct10000" format="ditamap" processing-role="resource-only"/>
+	<topicref keys="r_membr-mx-010-bx" href="source/anhang/r_membr-mx-010-bx.xml" navtitle="Dokumentation Membraneinheit MX-010-BX" format="dita" type="reference" processing-role="resource-only"/>
+	<topicref keys="r_membr-ux-05" href="source/anhang/r_membr-ux-05.xml" navtitle="Dokumentation Membraneinheit UX-05" format="dita" type="reference" processing-role="resource-only"/>
+	<!-- #### WAREHOUSE SECTION (conref pool) #### -->
+	<topicref href="source/warehouse/reuse_trbl-elements.xml" format="dita" processing-role="resource-only"/>
+
+	<!-- #### CONTENT #### -->
+	<topicref href="source/allgemeines/c_bestimmgms-bedienung.xml" format="dita" type="concept"/>
+	<!-- ToDo: revise SiHis, use hazardstatements in a sihi-warehouse -->
+	<topicref href="source/allgemeines/r_sicherheitshinweise.xml" format="dita" type="reference"/>
+	<mapref href="source/geraetebeschreibung/s_geraetebeschreibung.ditamap"/>
+	<mapref href="source/installationsanleitung/s_installationsanleitung.ditamap"/>
+	<mapref href="source/bedienungsanleitungen/s_bedienungsanleitungen.ditamap"/>
+	<mapref href="source/inspektion-und-wartung/s_inspektion-und-wartung.ditamap"/>
+	<mapref href="source/fehlerbehebung/s_fehlerbehebung.ditamap"/>
+	<mapref href="source/ausserbetriebnahme/s_ausserbetriebnahme.ditamap"/>
+	<topicref keys="r_tech-data" href="source/allgemeines/r_technische-daten.xml"/>
+	<topicref href="source/allgemeines/r_garantie.md" format="markdown"/>
+	<topicref href="source/allgemeines/r_kontakt.xml"/>
+	<topicref href="source/allgemeines/r_ce-konformitaetserklaerung.xml"/>
+	<mapref href="source/anhang/s_anhang.ditamap"/>
+	<mapref href="source/glossar/s_glossar.ditamap"/>
+	<!-- #### RELATIONSHIPS TABLE #### -->
+	<reltable>
+		<relrow>
+			<relcell linking="sourceonly">
+				<topicref keyref="tr_fehler-membran-t2"/>
+			</relcell>
+			<relcell>
+				<topicref keyref="wartung"/>
+			</relcell>
+		</relrow>
+		<relrow>
+			<relcell linking="sourceonly">
+				<topicref keyref="r_deliv-scope"/>
+			</relcell>
+			<relcell>
+				<topicref keyref="r_docs-membr"/>
+				<topicref keyref="r_docs-vents"/>
+				<topicref keyref="r_docs-perms"/>
+				<topicref keyref="r_docs-dwf"/>
+				<topicref keyref="r_feedpump"/>
+			</relcell>
+		</relrow>
+		<relrow>
+			<relcell linking="sourceonly">
+				<topicref keyref="t_montage-gw"/>
+				<topicref otherprops="tank-f" keyref="t_montage-f"/>
+				<topicref keyref="t_montage-sw"/>
+			</relcell>
+			<relcell>
+				<topicref keyref="r_tech-data"/>
+			</relcell>
+		</relrow>
+	</reltable>
+</map>

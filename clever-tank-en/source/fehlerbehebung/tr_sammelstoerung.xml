@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA 1.3 Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting xml:lang="en-US" id="trbl_sammelstoerung">
+	<title>Sammelstörung</title>
+	<troublebody>
+		<troubleSolution>
+			<cause>
+				<title>Auslösen einer Sicherung im Schaltschrank</title>
+			</cause>
+			<remedy>
+				<steps>
+					<step>
+						<cmd>siehe Schaltplan</cmd>
+					</step>
+					<step>
+						<cmd>Stromkreis kontrollieren</cmd>
+					</step>
+					<step>
+						<cmd>elektrisch prüfen</cmd>
+					</step>
+				</steps>
+			</remedy>
+		</troubleSolution>
+	</troublebody>
+</troubleshooting>
