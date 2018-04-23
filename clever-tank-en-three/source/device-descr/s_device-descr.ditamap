@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Product description</title>
+	<topicref href="c_device-descr.xml" navtitle="Product description" format="dita" type="concept">
+		<topicref keys="r_deliv-scope" href="r_delivery-scope.xml" navtitle="Delivery scope" format="dita" type="reference"/>
+		<topicref href="r_drawing.xml" navtitle="Drawing" format="dita" type="reference"/>
+	</topicref>
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Disposal</title>
+	<topicref href="t_shutdown.xml" navtitle="Shutting down" format="dita" type="task">
+		<topicref href="r_safety-disposal.xml" navtitle="Safety notes" format="dita" type="reference"/>
+		<topicref href="t_dispose.xml" navtitle="Disposing" format="dita" type="task"/>
+	</topicref>
+</map>

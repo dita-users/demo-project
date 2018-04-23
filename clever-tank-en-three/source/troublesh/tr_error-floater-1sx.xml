@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA 1.3 Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting xml:lang="en-US" id="trbl_error-floater-1sx">
+	<title>Error: Floater 1SX</title>
+	<troublebody>
+		<troubleSolution>
+			<cause>
+				<title>Illogical sequence of floater in Tank <keyword keyref="group-num-sw"/>/ Storage Tank</title>
+				<p>if 1S2 is OFF, 1S3 cannot be ON</p>
+			</cause>
+			<remedy>
+				<steps-unordered>
+					<step>
+						<cmd>Check floater for contamination</cmd>
+					</step>
+					<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
+						<cmd/>
+					</step>
+				</steps-unordered>
+			</remedy>
+		</troubleSolution>
+	</troublebody>
+</troubleshooting>

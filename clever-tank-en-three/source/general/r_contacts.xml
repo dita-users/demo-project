@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_kontakt">
+	<title>Contacts</title>
+	<refbody>
+		<section>
+			<title>Wassertank Technik GmbH</title>
+			<p>1.3 Dita Street</p>
+			<p>2017 INFOSTADT</p>
+			<p>Office: 0101010101</p>
+			<p>Service: 01111 010101</p>
+			<p>Internet: www.dita-users.com</p>
+		</section>
+	</refbody>
+</reference>

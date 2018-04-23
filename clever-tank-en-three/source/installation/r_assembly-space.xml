@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_assembly-room">
+	<title>Assembly space requirements</title>
+	<refbody>
+		<section>
+			<p>The grey water system with its PE tank must be erected on an even, levelled, clean and solid surface in order to prevent any malfunction during operation of the system.</p>
+			<p>Install the system at a sufficient distance (working space) to adjacent walls: laterally min. 0.5 m and at the back min. 0.5 m.</p>
+			<p>When erecting the individual PE storage tanks please make strict use of the technical drawings in the operating and installation manual. Each PE storage tank is to be labelled and
+				marked accordingly.</p>
+			<p>The control system has been designed for mounting on the wall.</p>
+		</section>
+	</refbody>
+</reference>
