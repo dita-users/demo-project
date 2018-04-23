@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+	<title>keymap: General keys</title>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Product</navtitle>
+		</topicmeta>
+		<keydef keys="prod-series">
+			<topicmeta>
+				<keywords>
+					<keyword>CleverTank</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Company</navtitle>
+		</topicmeta>
+		<keydef keys="company-name">
+			<topicmeta>
+				<keywords>
+					<keyword>Wassertanktechnick GmbH</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="company-short">
+			<topicmeta>
+				<keywords>
+					<keyword>WTT</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+	</topicgroup>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Graphics</navtitle>
+		</topicmeta>
+		<keydef keys="il_ctrl-panel-ct" href="../graphics/il_ctrl-panel-ct.jpg" format="JPG" navtitle="Control panel">
+			<topicmeta>
+				<navtitle>Control panel</navtitle>
+				<linktext>Control panel</linktext>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="il_membr-mx-010-bx" href="../graphics/il_membr-mx-010-bx.png" format="PNG" navtitle="Membrane unit MX-010-BX">
+			<topicmeta>
+				<navtitle>Membrane unit MX-010-BX</navtitle>
+				<linktext>Membrane unit MX-010-BX</linktext>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="form_sw-reg" href="../graphics/form_sw-reg.jpg" format="JPG" navtitle="Register service water">
+			<topicmeta>
+				<navtitle>Register service water</navtitle>
+				<linktext>Register service water</linktext>
+			</topicmeta>
+		</keydef>
+		<keydef keys="form_utility-reg" href="../graphics/form_utility-reg.jpg" format="JPG" navtitle="Utility form">
+			<topicmeta>
+				<navtitle>Utility form</navtitle>
+				<linktext>Utility form</linktext>
+			</topicmeta>
+		</keydef>
+		<keydef keys="logo_html" href="../styles/logo.jpg" format="JPG" navtitle="Logo">
+			<topicmeta>
+				<navtitle>Logo</navtitle>
+				<linktext>Logo</linktext>
+			</topicmeta>
+		</keydef>
+	</topicgroup>
+</map>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-US" id="xkv_pvh_p1b">
+	<title>Designated use</title>
+	<conbody>
+		<p>Safety devices installed in the system by the manufacturer are only for the basic prevention of accidents. The main responsibility for an accident-free workflow mainly lies with the
+			business owner who operates the system as well as with the individuals they nominate to operate the system, perform maintenance or carry out any other work on the system.</p>
+		<p>The appropriate operation according to the intended purpose and compliance with the care, service and maintenance measures, that are prescribed by the manufacturer, ensure the
+			functionality as well as a high lifespan of the membrane modules and of the system components, thus helping to prevent work-related accidents and occupational injuries.</p>
+		<p>The staff intended to operate and maintain the system described in this document must read and understand the specific chapter written in the operation manual and must apply the
+			instructions with due diligence. In the interest of operational safety and accident prevention, only staff who are well-trained may be assigned the task of handling the system. The
+			staff must receive special instructions regarding any potential risk.</p>
+		<p>The manufacturer is not liable for any damage to persons or equipment, resulting from improper handling or non-compliance with the instructions indicated above. The Owner and/or the
+			Operator of the system shall assume the full liability.</p>
+		<p>Operating the system in a different manner than that described in the operation manual will result in the loss of any warranty or warranty claims against the manufacturer.</p>
+	</conbody>
+</concept>

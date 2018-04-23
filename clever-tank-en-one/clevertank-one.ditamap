@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title><keyword keyref="prod-name"/> Operating &amp; Installation Manual</title>
+	<!-- #### KEYS SECTION #### -->
+	<mapref href="keymaps/keys-gen.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-GUI.ditamap" format="ditamap" processing-role="resource-only"/>
+	<mapref href="keymaps/keys-CT1500.ditamap" format="ditamap" processing-role="resource-only"/>
+
+	<!-- #### WAREHOUSE SECTION (conref pool) #### -->
+	<topicref href="source/warehouse/reuse_trbl-elements.xml" format="dita" processing-role="resource-only"/>
+
+	<!-- #### CONTENT #### -->
+	<topicref href="source/general/c_design-use.xml" format="dita" type="concept"/>
+	<!-- ToDo: revise notes, use hazardstatements in a safety-warehouse -->
+	<topicref href="source/general/r_safety.xml" format="dita" type="reference"/>
+	<mapref href="source/device-descr/s_device-descr.ditamap"/>
+	<mapref href="source/installation/s_install.ditamap"/>
+	<mapref href="source/operation/s_operation.ditamap"/>
+	<mapref href="source/maintenance/s_maintenance.ditamap"/>
+	<mapref href="source/troublesh/s_trblsh.ditamap"/>
+	<mapref href="source/shutdown/s_disposal.ditamap"/>
+	<topicref keys="r_tech-data" href="source/general/r_tech-data.xml"/>
+	<topicref href="source/general/r_warranty.md" format="markdown"/>
+	<topicref href="source/general/r_contacts.xml"/>
+	<topicref href="source/general/r_ce-conformity.xml"/>
+	<mapref href="source/appendix/s_appendix.ditamap"/>
+	<mapref href="source/glossary/s_glossary.ditamap"/>
+	<!-- #### RELATIONSHIPS TABLE #### -->
+	<reltable>
+		<relrow>
+			<relcell linking="sourceonly">
+				<topicref keyref="tr_error-membrane-t2"/>
+			</relcell>
+			<relcell>
+				<topicref keyref="maintain"/>
+			</relcell>
+		</relrow>
+		<relrow>
+			<relcell linking="sourceonly">
+				<topicref keyref="r_deliv-scope"/>
+			</relcell>
+			<relcell>
+				<topicref keyref="r_membr-mx-010-bx"/>
+				<topicref keyref="r_docs-vents"/>
+				<topicref keyref="r_docs-perms"/>
+				<topicref keyref="r_docs-dwf"/>
+				<topicref keyref="r_feedpump"/>
+			</relcell>
+		</relrow>
+		<relrow>
+			<relcell linking="sourceonly">
+				<topicref keyref="t_assemble-gw"/>
+				<topicref keyref="t_assemble-sw"/>
+			</relcell>
+			<relcell>
+				<topicref keyref="r_tech-data"/>
+			</relcell>
+		</relrow>
+	</reltable>
+</map>

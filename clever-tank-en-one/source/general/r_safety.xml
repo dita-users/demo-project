@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_sicherheitshinweise">
+	<title>General safety guidelines</title>
+	<refbody>
+		<section>
+			<note type="caution">Labelling regulations for all service water lines with "NOT POTABLE WATER"! apply e.g. an <keyword keyref="prod-series"/> labelling system.</note>
+			<note type="important"><b>Potable Water Regulation (TrinkwV 2001) § 13 (3)</b>
+				<q>The business owner and other owners of systems that are intended for obtaining or providing water that does not meet the quality of water for human consumption, and which
+					are installed domestically in addition to the water supply systems as defined in § 3, No. 2, must present these systems to the competent authority at the moment of
+					commissioning. If such systems are already being operated, notification must be submitted immediately</q> (see <xref href="../appendix/r_registration-installation.xml"
+					format="dita"/>)</note>
+			<note type="important"><b>Waste Water Regulation AbwV § 3 (2)</b>
+				<q>Prior to the installation of an own recovery system, the customer must inform the water utility company. The customer must take the appropriate steps to ensure that the own
+					system will not have any repercussions on the public water supply network</q> (see <xref href="../appendix/r_registration-water-utilities.xml" format="dita"/>)</note>
+			<note type="restriction">Installation must be carried out by trained qualified staff.</note>
+			<note type="caution">When carrying out the installation the current technical rules for domestic installations must be observed (<i>DIN1988</i>, <i>EN1717</i>).</note>
+			<note type="caution">The system must be fitted with its own fuse protection (FI).</note>
+			<note type="caution">The installation room must be provided with floor drainage.</note>
+			<note type="caution">The grey water manifolds must be vented in such a way that the air blown into the wastewater system can escape freely via the vent of the grey water
+				manifold.</note>
+			<note>When operated correctly, the treated grey water will attain the quality stipulated in the <i>Bathing Water Directive of the EU</i>.</note>
+			<note type="danger">The system must be <b>disconnected from the supply voltage</b> before performing any maintenance or repair work.</note>
+			<note type="restriction">Emptying of the grey water vessel must only be carried out by trained service staff. If the filter dries out, this will destroy the membrane.</note>
+			<note type="caution"><p><i>EN 12056-1</i> defines grey water as faecal-free, slightly contaminated wastewater, such as that accumulated from taking showers, or baths or from washing
+					hands, and also that which comes out of the washing machine and can be used as service and process water when treated. A grey water treatment system is used exclusively
+					for the treatment and recycling of slightly contaminated, faecal-free wastewater.</p>
+				<p>Due to the fat content, a kitchen drain should not be connected.</p>
+				<p>In the case of highly contaminated wastewater from toilets, kitchen drains or washing machines, quality objectives of treatment will not be achieved and damage to the
+					membrane cannot be ruled out.</p>
+				<p>The supply of strong alkaline cleaning products (chlorine cleaner etc.), dispersion paints, lacquers, hair dyes, oils and fats affects the performance of the membrane and
+					the quality of the service water and must be avoided. Large amounts of fats and oils in particular can cause irreversible damage to the membrane.</p></note>
+		</section>
+	</refbody>
+</reference>

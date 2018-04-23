@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="i3v_rjb_41b">
+	<title>Baugruppe <keyword keyref="group-num-f"/> montieren</title>
+	<taskbody>
+		<steps>
+			<step>
+				<cmd>Der Überlauf der Grauwasserfiltrierung bauseitig an die bestehende Abwasserleitung installieren und anschließen.</cmd>
+			</step>
+			<step otherprops="tank-f-connect">
+				<cmd>Die Behälter (<keyword keyref="f-tanks"/> Stück) mit beiliegenden Verbindungsleitungen zum Entlüften oben und zum Niveauausgleich vorne untereinander verbinden.</cmd>
+			</step>
+			<step>
+				<cmd>Entlüftung anschließen.</cmd>
+				<info><p>Diese Baugruppe muss über beiliegende Verbindung zu Baugruppe <keyword keyref="group-num-before-f"/> entlüftet werden.</p><p otherprops="tank-f-connect">Bzw. der erste Behälter dieser Gruppe zum letzten Behälter der Baugruppe <keyword keyref="group-num-before-f"/>.</p></info>
+			</step>
+			<step>
+				<cmd>Schlauch der Förderpumpe anschließen.<ph otherprops="tank-gw-connect"> (<keyword keyref="gw-pumps"/> Stück)</ph> </cmd>
+			</step>
+			<step>
+				<cmd>Schlauch der Filtrationspumpe<ph otherprops="tank-f-connect"> (<keyword keyref="f-perms"/> Stück)</ph> an den dafür vorgesehenen Stutzen der Baugruppe <keyword keyref="group-num-after-f"/> anschließen (Bezeichnungen/Farbmarkierung beachten).</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

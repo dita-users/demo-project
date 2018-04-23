@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_checklist-install-gw">
+	<title>Checklist for the setup</title>
+	<refbody>
+		<section>
+			<ul>
+				<li><p>Die erforderlichen Maße zur Aufstellung des Systems sowie der erforderliche Platzbedarf und alle Abstände zu den umliegenden Wänden sind gemäß beigefügter technischer
+						Zeichnung eingehalten.</p></li>
+				<li><p>Ein elektrischer Anschluss gemäß der Anforderungen im Technischen Datenblatt ist vorhanden und über einen FI-Schutzschalter abgesichert.</p></li>
+				<li><p>Der Aufstellort ist frostfrei (Die Raumtemperatur beträgt 12°C - 35°C), trocken, wettergeschützt, sowie gut belüftet und entlüftet.</p></li>
+				<li><p>Die Aufstellfläche ist eben. (Maximales Gefälle von 2°)</p></li>
+				<li><p>Die Tragfähigkeit der Aufstellfläche ist zu beachten. Das Gewicht der Anlagen entnehmen Sie dem technischen Datenblatt.</p></li>
+				<li><p>Ein Bodenablauf im Aufstellraum ist vorhanden.</p></li>
+				<li><p>Es wird nur Dusch- , Hand- und Badewasser eingeleitet.</p></li>
+				<li><p>Die Anlagenzuläufe (Grau- und Trinkwasser) sind gespült und frei von Verschmutzungen (wie z.B. Reste von Mörtel, Gips, Beton, Sand, etc)</p></li>
+				<li><p>Die Leitungen zur Kanalisation und die Grauwasserleitungen werden getrennt entlüftet.</p></li>
+				<li><p>Eine Rückstausicherung ist vorhanden.</p></li>
+				<li><p>Als Übergabepunkt wird der Einlaufstutzen für das Grauwasser, der Abgang der Druckerhöhungsanlage, der Überlauf am Tank sowie der Einlauftrichter für das Trinkwasser
+						angesehen.</p></li>
+				<li><p>Alle Rohrleitungen sind gemäß der technischen Zeichnung zu verbinden.</p>
+					<p>Die Nennweiten der Rohrleitungen sind in der Technischen Zeichnung und dem Technischen Datenblatt angegeben.</p>
+					<simpletable>
+						<strow>
+							<stentry>Trinkwassernachspeisung</stentry>
+							<stentry>- Druckleitung</stentry>
+						</strow>
+						<strow>
+							<stentry>Betriebswasserleitung</stentry>
+							<stentry>- Druckleitung</stentry>
+						</strow>
+						<strow>
+							<stentry>Grauwasserzulauf</stentry>
+							<stentry>- freies Gefälle</stentry>
+						</strow>
+						<strow>
+							<stentry>Überlauf zur Kanalisation</stentry>
+							<stentry>- freies Gefälle</stentry>
+						</strow>
+					</simpletable>
+				</li>
+				<li><p>Für folgende Fälle ist eine Hebeanlage vorzusehen:</p>
+					<ul>
+						<li><p>Das Grauwasser gelangt nicht über freies Gefälle in die Grauwasseranlage. Die Hebeanlage muss in diesem Fall mit einem separaten Überlauf ausgestattet sein
+								und separat entlüftet werden. </p></li>
+						<li><p>Das Wasser im Überlauf gelangt nicht über freies Gefälle in die Kanalisation.</p></li>
+					</ul>
+				</li>
+			</ul>
+			<p>Bei Fragen zu diesen Installationsvoraussetzungen setzen Sie sich bitte mit der <keyword keyref="company-name"/> in Verbindung.</p>
+		</section>
+	</refbody>
+</reference>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="msx_4jb_41b">
+	<title>Assembling group <keyword keyref="group-num-gw"/></title>
+	<taskbody>
+		<context>
+			<p>Please refer to the technical data sheet for all connecting dimensions.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Locate the grey water inflow from the building.</cmd>
+			</step>
+			<step>
+				<cmd>Connect the inflow.</cmd>
+				<info><p>Venting must be ensured via the inflow.</p></info>
+			</step>
+			<step>
+				<cmd>Connect the overflow.</cmd>
+				<info><p>The grey water overflow must be provided with an on-site connection to the existing wastewater line.</p>
+					<p>Please ensure an adequate backflow device in the overflow line.</p></info>
+			</step>
+			<step>
+				<cmd>Connect the tubes of the filtration pump to the nozzles of assembly group <keyword keyref="group-num-after-gw"/> (observe designation/colour coding).</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA 1.3 Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting xml:lang="en-US" id="trbl_trinkwasser-nicht-offen">
+	<title>Potable water not open</title>
+	<troublebody>
+		<troubleSolution>
+			<cause>
+				<title>Leak in the pressure line</title>
+			</cause>
+			<remedy>
+				<steps-unordered>
+					<step>
+						<cmd>Check pressure line</cmd>
+					</step>
+				</steps-unordered>
+			</remedy>
+		</troubleSolution>
+		<troubleSolution>
+			<cause>
+				<title>Connected incorrectly</title>
+			</cause>
+			<remedy>
+				<steps-unordered>
+					<step>
+						<cmd>Check terminal diagram</cmd>
+					</step>
+					<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
+						<cmd/>
+					</step>
+				</steps-unordered>
+			</remedy>
+		</troubleSolution>
+		<troubleSolution>
+			<cause>
+				<title>Fault in flow monitoring</title>
+			</cause>
+			<remedy>
+				<steps-unordered>
+					<step>
+						<cmd>Check flow meter</cmd>
+					</step>
+					<step conref="../warehouse/reuse_trbl-elements.xml#trbl_ubx_fxm_n1b/reuse_step-el-test">
+						<cmd/>
+					</step>
+				</steps-unordered>
+			</remedy>
+		</troubleSolution>
+		<troubleSolution>
+			<cause>
+				<title>Ball valve closed</title>
+			</cause>
+			<remedy>
+				<steps-unordered>
+					<step>
+						<cmd>Open ball valve</cmd>
+					</step>
+				</steps-unordered>
+			</remedy>
+		</troubleSolution>
+	</troublebody>
+</troubleshooting>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_initial-op">
+	<title>Initial operation</title>
+	<taskbody>
+		<prereq>After all the guidelines regarding the assembly space and the assembly have been carried out by a professional, you can put the system into operation.</prereq>
+		<context>
+			<p>Please check the following points once more and carry them out in the given order.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>Perform tightness tests on all connections.</cmd>
+			</step>
+			<step>
+				<cmd>Switch the main switch of the system to <uicontrol keyref="switch_off"/> (control box).</cmd>
+			</step>
+			<step>
+				<cmd>Open the gate valve of the potable water line.</cmd>
+			</step>
+			<step>
+				<cmd>Keep the pressure line for service water behind an external pressure boosting system closed.</cmd>
+			</step>
+			<step>
+				<cmd>Switch the main switch in the control box to <uicontrol keyref="switch_on"/>.</cmd>
+			</step>
+			<step>
+				<cmd>When switching on for the first time, you must adjust the date and time and confirm using the <uicontrol keyref="ctrl_ok"/> button.</cmd>
+				<stepresult><p>The system is now immediately switched to automatic mode.</p>
+					<p>Since assembly group <keyword keyref="group-num-sw"/> does not have any service water yet, the solenoid valve of the potable water line opens immediately and the
+						service water reservoir will be filled to the minimum level.</p><p>After achieving the minimum water level in the service water tank, the solenoid valve switches
+						off immediately, and the shut-off valve in the pressure line for service water can be opened.</p></stepresult>
+			</step>
+			<step>
+				<cmd>The external pressure booster unit can now be put into operation . (see Operation Manual of the Manufacturer – Pressure Increase).</cmd>
+			</step>
+			<step>
+				<cmd>Grey water should now flow to the first assembly group via the grey water inflow. If necessary, please allow some connected showers, bathtubs or washbasins to run for
+					assembly group <keyword keyref="group-num-gw"/> to be sufficiently filled with water.</cmd>
+			</step>
+			<step>
+				<cmd>The water will be aerated at time intervals.</cmd>
+			</step>
+			<step>
+				<cmd>On achieving the max. level in assembly group <keyword keyref="group-num-gw"/>, allow the feed pump in assembly group <keyword keyref="group-num-f"/> to run during manual
+					mode until the membranes are covered with at least 5 cm of water (refer to Operation of the control system).</cmd>
+			</step>
+		</steps>
+		<result><p>The system can now be used in automatic mode.</p>
+			<p>Only when sufficient grey water has entered the system and the levels in grey water and filter groups have reached the maximum values, will grey water be filtered and collected in
+				assembly group <keyword keyref="group-num-sw"/>.</p></result>
+	</taskbody>
+</task>

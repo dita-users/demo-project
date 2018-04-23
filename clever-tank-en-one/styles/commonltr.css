@@ -1,0 +1,489 @@
+/*
+ | This file is part of the DITA Open Toolkit project.
+ | See the accompanying license.txt file for applicable licenses.
+*/
+/*
+ | (c) Copyright IBM Corp. 2004, 2005 All Rights Reserved.
+ */
+.unresolved {
+  background-color: skyblue;
+}
+.noTemplate {
+  background-color: yellow;
+}
+.base {
+  background-color: #ffffff;
+}
+/* Add space for top level topics */
+.nested0 {
+  margin-top: 1em;
+}
+/* div with class=p is used for paragraphs that contain blocks, to keep the XHTML valid */
+.p {
+  margin-top: 1em;
+}
+/* Default of italics to set apart figure captions */
+.figcap {
+  font-style: italic;
+}
+.figdesc {
+  font-style: normal;
+}
+/* Use @frame to create frames on figures */
+.figborder {
+  border-style: solid;
+  padding-left: 3px;
+  border-width: 2px;
+  padding-right: 3px;
+  margin-top: 1em;
+  border-color: Silver;
+}
+.figsides {
+  border-left: 2px solid;
+  padding-left: 3px;
+  border-right: 2px solid;
+  padding-right: 3px;
+  margin-top: 1em;
+  border-color: Silver;
+}
+.figtop {
+  border-top: 2px solid;
+  margin-top: 1em;
+  border-color: Silver;
+}
+.figbottom {
+  border-bottom: 2px solid;
+  border-color: Silver;
+}
+.figtopbot {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  margin-top: 1em;
+  border-color: Silver;
+}
+/* Most link groups are created with <div>. Ensure they have space before and after. */
+.ullinks {
+  list-style-type: none;
+}
+.ulchildlink {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.olchildlink {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.linklist {
+  margin-bottom: 1em;
+}
+.linklistwithchild {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+.sublinklist {
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+.relconcepts {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.reltasks {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.relref {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.relinfo {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.breadcrumb {
+  font-size: smaller;
+  margin-bottom: 1em;
+}
+dt.prereq {
+  margin-left: 20px;
+}
+/* Set heading sizes, getting smaller for deeper nesting */
+.topictitle1 {
+  margin-top: 0;
+  margin-bottom: .1em;
+  font-size: 1.34em;
+  background-color: yellow;
+}
+.topictitle2 {
+  margin-top: 1pc;
+  margin-bottom: .45em;
+  font-size: 1.17em;
+}
+.topictitle3 {
+  margin-top: 1pc;
+  margin-bottom: .17em;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+.topictitle4 {
+  margin-top: .83em;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+.topictitle5 {
+  font-size: 1.17em;
+  font-weight: bold;
+}
+.topictitle6 {
+  font-size: 1.17em;
+  font-style: italic;
+}
+.sectiontitle {
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: black;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+.section {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.example {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+div.tasklabel {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h2.tasklabel,
+h3.tasklabel,
+h4.tasklabel,
+h5.tasklabel,
+h6.tasklabel {
+  font-size: 100%;
+}
+/* All note formats have the same default presentation */
+.note {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.notetitle {
+  font-weight: bold;
+}
+.notelisttitle {
+  font-weight: bold;
+}
+.tip {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.tiptitle {
+  font-weight: bold;
+}
+.fastpath {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.fastpathtitle {
+  font-weight: bold;
+}
+.important {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.importanttitle {
+  font-weight: bold;
+}
+.remember {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.remembertitle {
+  font-weight: bold;
+}
+.restriction {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.restrictiontitle {
+  font-weight: bold;
+}
+.attention {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.attentiontitle {
+  font-weight: bold;
+}
+.dangertitle {
+  font-weight: bold;
+}
+.danger {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.cautiontitle {
+  font-weight: bold;
+}
+.caution {
+  font-weight: inherit;
+  margin-bottom: 1em;
+}
+.warning {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.warningtitle {
+  font-weight: bold;
+}
+
+.danger .messagepanel,
+.warning .messagepanel,
+.caution .messagepanel
+{
+	margin-top: 4pt;
+	margin-bottom: 1pt;
+	padding: 1px;
+}
+
+.attention .messagepanel,
+.note.note .messagepanel{
+	margin-top: 4pt;
+	margin-bottom: 1pt;
+	padding: 1px;
+}
+
+.typeofhazard
+{
+	font-weight: bold !important;
+	list-style-type: none !important;
+	list-style-image: none;
+	list-style-position: outside;
+}
+
+.consequence {
+	font-weight: inherit;
+	list-style-type: none !important;
+	list-style-image: none;
+	list-style-position: outside;
+}
+
+.howtoavoid {
+	list-style-type: bullet;
+	margin-top: 4pt;
+	margin-bottom: 1pt;
+	list-style-position: inside;
+	padding: 1px;
+}
+
+/* Simple lists do not get a bullet */
+ul.simple {
+  list-style-type: none;
+}
+/* Used on the first column of a table, when rowheader="firstcol" is used */
+.firstcol {
+  font-weight: bold;
+}
+/* Various basic phrase styles */
+.bold {
+  font-weight: bold;
+}
+.boldItalic {
+  font-weight: bold;
+  font-style: italic;
+}
+.italic {
+  font-style: italic;
+}
+.underlined {
+  text-decoration: underline;
+}
+.uicontrol {
+  font-weight: bold;
+}
+.wintitle {
+  font-weight: bold;
+}
+.parmname {
+  font-weight: bold;
+}
+.kwd {
+  font-weight: bold;
+}
+.defkwd {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.var {
+  font-style: italic;
+}
+.shortcut {
+  text-decoration: underline;
+}
+/* Default of bold for definition list terms */
+
+/*ol.legend {
+	list-style-type: digit !important;
+	list-style-image: none;
+	list-style-position: outside;
+	margin-left: 25px;
+} */
+
+.dlterm {
+  font-weight: bold;
+}
+
+ol.legend {
+    counter-reset:li; /* Initiate a counter */
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol.legend > li {
+    position:relative; /* Create a positioning context */
+    margin:0 0 6px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:0px 8px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+    border:none;
+    background:none;
+}
+ol.legend > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+	/*border-radius:20px;*/
+    width:1.5em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:2px;
+    border-top:2px solid #666;
+    color:#fff;
+    background:#666;
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+
+
+/* Use CSS to expand lists with @compact="no" */
+.dltermexpand {
+  font-weight: bold;
+  margin-top: 1em;
+}
+*[compact="yes"] > li {
+  margin-top: 0;
+}
+*[compact="no"] > li {
+  margin-top: .53em;
+}
+.liexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.sliexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.dlexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.ddexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.stepexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.substepexpand {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* Align images based on @align on topic/image */
+div.imageleft {
+  text-align: left;
+}
+div.imagecenter {
+  text-align: center;
+}
+div.imageright {
+  text-align: right;
+}
+div.imagejustify {
+  text-align: justify;
+}
+/* The cell border can be turned on with
+   {border-right:solid}
+   This value creates a very thick border in Firefox (does not match other tables)
+
+   Firefox works with 
+   {border-right:solid 1pt}
+   but this causes a barely visible line in IE */
+.cellrowborder {
+  border-left: none;
+  border-top: none;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+}
+.row-nocellborder {
+  border-left: none;
+  border-top: none;
+  border-right: hidden;
+  border-bottom: solid 1px;
+}
+.cell-norowborder {
+  border-top: none;
+  border-left: none;
+  border-bottom: hidden;
+  border-right: solid 1px;
+}
+.nocellnorowborder {
+  border: none;
+  border-right: hidden;
+  border-bottom: hidden;
+}
+pre.screen {
+  padding: 5px 5px 5px 5px;
+  border: outset;
+  background-color: #CCCCCC;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  white-space: pre;
+}
+span.filepath,
+samp.codeph,
+pre.codeblock {
+  font-family: monospace;
+}
+
+.related-links {
+	margin-top: 1em;
+}
+
+.frameall {
+	/* border: solid 1px black; */
+	border: none;
+}
+
+.noframe {
+	border: none;
+}
+
+/*
+.troubleSolution {
+	background-color: #f4eec8;
+}
+
+.condition {
+	background-color: #fceb7e;
+}
+*/

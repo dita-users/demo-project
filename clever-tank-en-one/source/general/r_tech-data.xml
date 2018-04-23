@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_technische-daten">
+	<title>Technical data</title>
+	<refbody>
+		<table>
+			<tgroup cols="2">
+				<colspec colwidth="2*"/>
+				<colspec colwidth="1*"/>
+				<thead>
+					<row>
+						<entry/>
+						<entry><keyword keyref="prod-name"/></entry>
+					</row>
+				</thead>
+				<tbody>
+					<row>
+						<entry>Height</entry>
+						<entry><keyword keyref="td_hight"/></entry>
+					</row>
+					<row>
+						<entry>Width</entry>
+						<entry><keyword keyref="td_width"/></entry>
+					</row>
+					<row>
+						<entry>Depth</entry>
+						<entry><keyword keyref="td_depth"/></entry>
+					</row>
+					<row>
+						<entry>Max. filled weight</entry>
+						<entry><keyword keyref="td_max-weight"/></entry>
+					</row>
+					<row>
+						<entry>Connection grey water inflow</entry>
+						<entry><keyword keyref="td_connect-gw-in"/></entry>
+					</row>
+					<row>
+						<entry>Connection grey water overflow</entry>
+						<entry><keyword keyref="td_connect-gw-over"/></entry>
+					</row>
+					<row>
+						<entry>Connection service water overflow</entry>
+						<entry><keyword keyref="td_connect-sw-over"/></entry>
+					</row>
+					<row>
+						<entry>Connection potable water backfeed</entry>
+						<entry><p><keyword keyref="td_connect-potw-back-nom"/></p>
+							<p><keyword keyref="td_connect-potw-back"/></p>
+						</entry>
+					</row>
+					<row>
+						<entry>Connection service water transfer</entry>
+						<entry><keyword keyref="td_connect-sw-transf"/></entry>
+					</row>
+					<row>
+						<entry>Membrane surface</entry>
+						<entry><keyword keyref="td_membr-area"/></entry>
+					</row>
+					<row>
+						<entry>Treatment capacity</entry>
+						<entry><keyword keyref="td_capacity"/></entry>
+					</row>
+					
+					<row>
+						<entry>Tank volume assembly group <keyword keyref="group-num-f"/></entry>
+						<entry><keyword keyref="td_vol-f"/></entry>
+					</row>
+					<row>
+						<entry>Tank volume assembly group <keyword keyref="group-num-sw"/></entry>
+						<entry><keyword keyref="td_vol-sw"/></entry>
+					</row>
+					<row>
+						<entry>Supply voltage</entry>
+						<entry><keyword keyref="td_supply-volt"/></entry>
+					</row>
+					<row>
+						<entry>Back-up fuse</entry>
+						<entry><keyword keyref="td_backup-fuse"/></entry>
+					</row>
+					<row>
+						<entry>Max. power consumption</entry>
+						<entry><keyword keyref="td_max-power"/></entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</refbody>
+</reference>
