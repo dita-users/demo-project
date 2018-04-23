@@ -3,20 +3,18 @@
 <reference xml:lang="de-DE" id="r_membr-mx-010-bx">
 	<title>Dokumentation Membraneinheit MX-010-BX</title>
 	<prolog>
-		<metadata><prodinfo>
-			<prodname/>
-			<vrmlist>
-				<vrm version="1500 3000 6000"/>
-			</vrmlist>
-			<series><keyword keyref="prod-series"/></series>
-		</prodinfo></metadata>
+		<metadata>
+			<prodinfo>
+				<prodname/>
+				<vrmlist>
+					<vrm version="1500 3000 6000"/>
+				</vrmlist>
+				<series><keyword keyref="prod-series"/></series>
+			</prodinfo>
+		</metadata>
 	</prolog>
 	<refbody>
 		<section>
-			<!-- TODO: not as image; rewrite -->
-			<!-- <fig>
-				<image keyref="table_membr-mx-010-bx" scalefit="yes"/>
-			</fig> -->
 			<table id="tab_membr-mx-10-bx" frame="all" rowsep="1" colsep="1">
 				<tgroup cols="3" align="left">
 					<colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -52,8 +50,7 @@
 							<entry align="center">15...25</entry>
 						</row>
 						<row>
-							<entry align="left">Betriebskonzentration, Belebtschl.
-								(kommunal)</entry>
+							<entry align="left">Betriebskonzentration, Belebtschl. (kommunal)</entry>
 							<entry align="center">g/l</entry>
 							<entry align="center">8...15</entry>
 						</row>
@@ -83,8 +80,7 @@
 							<entry align="center">zwischen 2 und 5 Jahren</entry>
 						</row>
 						<row>
-							<entry namest="c1" nameend="c3" align="left"><b>sonstige
-								Moduldaten</b></entry>
+							<entry namest="c1" nameend="c3" align="left"><b>sonstige Moduldaten</b></entry>
 						</row>
 						<row>
 							<entry align="left">Taschenausführung</entry>
@@ -161,8 +157,7 @@
 							<entry align="center">1/2" IG</entry>
 						</row>
 						<row>
-							<entry namest="c1" nameend="c3" align="left"><b>Daten zur
-									Membranbelüftung</b></entry>
+							<entry namest="c1" nameend="c3" align="left"><b>Daten zur Membranbelüftung</b></entry>
 						</row>
 						<row>
 							<entry align="left">Belüfter</entry>
@@ -190,8 +185,7 @@
 							<entry align="center">belüfterspezifisch</entry>
 						</row>
 						<row>
-							<entry namest="c1" nameend="c3" align="left"><b>chemische
-								Reinigung</b></entry>
+							<entry namest="c1" nameend="c3" align="left"><b>chemische Reinigung</b></entry>
 						</row>
 						<row>
 							<entry align="left">Reinigung</entry>
@@ -219,7 +213,7 @@
 		</section>
 		<section>
 			<fig>
-				<image keyref="il_membr-mx-010-bx" scalefit="yes"/>
+				<image keyref="il_membr-mx-010-bx" placement="break" scalefit="yes"/>
 			</fig>
 		</section>
 	</refbody>
