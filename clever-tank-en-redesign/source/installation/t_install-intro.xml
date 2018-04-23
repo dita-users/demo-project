@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="t_installationsanleitung">
+	<title>Installing <ph keyref="prod-name"/>
+	</title>
+	<taskbody>
+		<context>
+			<hazardstatement type="attention">
+				<messagepanel>
+					<typeofhazard>In case of non-compliance, warranty claims will be void!</typeofhazard>
+					<howtoavoid>After proper setup and installation of the system, perform the electrical installation and check the tightness of all water connections.</howtoavoid>
+					<howtoavoid>Avoid tempering with other system components, the control module, the pumps or any individual additional components.</howtoavoid>
+				</messagepanel>
+			</hazardstatement>
+		</context>
+		<steps>
+			<step>
+				<cmd>Align and position the tanks</cmd>
+			</step>
+			<step>
+				<cmd>Connect tanks</cmd>
+			</step>
+			<step>
+				<cmd>Mount the overflow (backflow device and/ or lifting system provided on-site)</cmd>
+			</step>
+			<step>
+				<cmd>Connect pressure booster unit to the tank</cmd>
+			</step>
+			<step>
+				<cmd>Connect potable water backfeed</cmd>
+			</step>
+			<step>
+				<cmd>Connect inlet</cmd>
+			</step>
+			<step>
+				<cmd>Connect pressure booster unit to the service water network</cmd>
+			</step>
+			<step>
+				<cmd>Make the necessary electrical connections</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

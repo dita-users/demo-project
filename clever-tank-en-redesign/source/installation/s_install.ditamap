@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Installation instructions</title>
+	<topicref href="t_install-intro.xml" navtitle="Installing" format="dita" type="task">
+		<topicref href="r_assembly-space.xml" navtitle="Assembly space" format="dita" type="reference" collection-type="sequence"/>
+		<!--<topicref href="r_checklist-install-gw.xml" navtitle="Checklist for installing greywater assemblies" format="dita" type="reference"/>-->
+		<topicref href="t_assemble.xml" navtitle="Assembling" format="dita" type="task">
+			<topicref keys="t_assemble-gw" href="t_assemble-gw.xml" format="dita" type="task" navtitle="Assembling the greywater tanks"/>
+			<topicref keys="t_assemble-sw" href="t_assemble-sw.xml" format="dita" type="task" navtitle="Assembling the service water tanks"/>
+			<topicref href="t_assemble-ctrl.xml" format="dita" type="task" navtitle="Connecting the installation"/>
+			<topicref href="t_initial-op.xml" navtitle="Initial operation " format="dita" type="task"/>
+		</topicref>
+	</topicref>
+</map>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Troubleshooting</title>
+	<topicref href="tr_troubleshooting.xml" navtitle="Troubleshooting " format="dita" type="troubleshooting">
+		
+		<topicref href="tr_error-airfilter-t2.xml" navtitle="Error: Air filter T2 " format="dita" type="troubleshooting"/>
+		<topicref href="tr_potable-not-open.xml" navtitle="Potable water not open" format="dita" type="troubleshooting"/>
+		<topicref href="tr_error-ext-dea.xml" navtitle="Error: Ext. DEA " format="dita" type="troubleshooting"/>
+		<topicref href="tr_error-collect.xml" navtitle="Error: Collecting" format="dita" type="troubleshooting"/>
+		
+		<topicref keys="tr_error-membrane-t2" href="tr_error-membrane-t2.xml" navtitle="Error: Membrane T2 " format="dita" type="troubleshooting"/>
+		<topicref href="tr_error-filtration-t2.xml" navtitle="Error: Filtration T2 " format="dita" type="troubleshooting"/>
+		<topicref href="tr_error-floater-1sx.xml" navtitle="Error: Floater 1SX " format="dita" type="troubleshooting"/>
+		<topicref href="tr_error-floater-9sx.xml" navtitle="Error: Floater 9SX " format="dita" type="troubleshooting"/>
+		<topicref href="tr_error-storage.xml" navtitle="Error: Storage" format="dita" type="troubleshooting"/>
+	</topicref>
+</map>

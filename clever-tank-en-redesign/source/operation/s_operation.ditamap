@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Operation instructions</title>
+	<topicref href="t_operating.xml" navtitle="Operating" format="dita" type="task">
+		<topicref href="t_normal-use.xml" navtitle="Normal use" format="dita" type="task"/>
+		<topicref href="t_vacation.xml" navtitle="Vacation mode" format="dita" type="task"/>
+		<topicref href="t_summer-winter.xml" navtitle="Summer and Winter modes" format="dita" type="task"/>
+		<topicref href="t_set-date-time.xml" navtitle="Setting date and time" format="dita" type="task"/>
+		<topicref href="r_controls.xml" navtitle="Controls" format="dita" type="reference">
+			<topicref href="r_switch.xml" navtitle="Switch board" format="dita" type="reference"/>
+			<topicref href="r_control-panel.xml" navtitle="Control panel" format="dita" type="reference"/>
+		</topicref>
+	</topicref>
+</map>
