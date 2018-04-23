@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Inspection and maintenance</title>
+	<topicref keys="maintain" href="t_inspect-maintain.xml" navtitle="Inspection and maintenance" format="dita" type="task">
+		<topicref href="r_checklists.xml" navtitle="Checklists" format="dita" type="reference"/>
+		<topicref href="r_forms.xml" navtitle="Forms" format="dita" type="reference"/>
+	</topicref>
+</map>

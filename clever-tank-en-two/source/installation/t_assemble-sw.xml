@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="c4v_tjb_41b">
+	<title>Assembling group <keyword keyref="group-num-sw"/></title>
+	<taskbody>
+		<context>
+			<p>The transfer point of service water is mounted on this tank. Eventually, an external pressure booster unit can be connected here.</p>
+			<p>Please apply all connecting dimensions according to the technical data sheet.</p>
+		</context>
+		<steps>
+			<step>
+				<cmd>The overflow of the service water group must also be connected on-site to the existing wastewater line.</cmd>
+			</step>
+			<step>
+				<cmd>In order to ensure the supply to the service water network, the potable water backfeed must be connected on-site by means of a pressure line.</cmd>
+			</step>
+			<step>
+				<cmd>Connect the tube of the filtration pump of assembly group <keyword keyref="group-num-before-sw"
+					/>.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

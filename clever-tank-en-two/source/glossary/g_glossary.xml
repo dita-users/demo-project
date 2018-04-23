@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup xml:lang="en-US" id="gg_g_glossar">
+	<title>Glossary</title>
+	<glossentry id="g_dea">
+		<glossterm>Booster station (DEA)</glossterm>
+		<glossdef>Eine Druckerhöhungsanlage (DEA) ist eine automatisch gesteuerte Pumpe oder eine Kombination aus Pumpen und weitere technischer Einrichtungen zur Erhöhung des Versorgungsdrucks in
+			der Wasserversorgung. Technische Herausforderung ist dabei einen konstanten Versorgungsdruck bei schwankenden Abgabemengen zu gewährleisten. Dies ist bei Wasser wesentlich
+			schwieriger als bei gasförmigen Medien, da Wasser kaum komprimierbar ist.</glossdef>
+	</glossentry>
+	<glossentry id="g_gw">
+		<glossterm>Grey water</glossterm>
+		<glossdef><p><i>EN 12056-1</i> defines grey water as slightly contaminated wastewater, such as that accumulated from taking showers, or baths or from washing hands, and also
+				that which comes out of the washing machine and can be used as service and process water when treated.</p></glossdef>
+	</glossentry>
+	<glossentry id="g_gw-system">
+		<glossterm>Grey water system</glossterm>
+		<glossdef>A grey water treatment system is used exclusively for the treatment and
+			recycling of slightly contaminated wastewater.</glossdef>
+	</glossentry>
+	<glossentry id="g_pe">
+		<glossterm>Polyethylene (PE)</glossterm>
+		<glossdef>a polymer of ethylene; especially :any of various partially crystalline lightweight thermoplastics (CH<sub>2</sub>CH<sub>2</sub>)<sub>x</sub> that are resistant to chemicals and
+			moisture, have good insulating properties, and are used especially in packaging and insulation</glossdef>
+	</glossentry>
+	<glossentry id="g_potw">
+		<glossterm>Potable water</glossterm>
+		<glossdef/>
+	</glossentry>
+	<glossentry id="g_sw">
+		<glossterm>Service water</glossterm>
+		<glossdef/>
+	</glossentry>
+</glossgroup>

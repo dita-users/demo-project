@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+	<title>keymap: Product keys CT1500</title>
+
+	<topicgroup>
+		<topicmeta>
+			<navtitle>Product</navtitle>
+		</topicmeta>
+		<keydef keys="prod-name">
+			<topicmeta>
+				<keywords>
+					<keyword>CleverTank 1500</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="prod-short">
+			<topicmeta>
+				<keywords>
+					<keyword>CT1500</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+	</topicgroup>
+
+	<topicgroup translate="no">
+		<topicmeta>
+			<navtitle translate="no">Assembly Groups</navtitle>
+		</topicmeta>
+		<keydef keys="group-num-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-f">
+			<!-- for CT1500: grey water and filter are in one group -->
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<!-- #### Assembly order: #### -->
+		<keydef keys="group-num-before-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>0</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-after-gw">
+			<topicmeta>
+				<keywords>
+					<keyword>2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-before-f">
+			<topicmeta>
+				<keywords>
+					<keyword>0</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-after-f">
+			<topicmeta>
+				<keywords>
+					<keyword>2</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-before-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-after-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>3</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="group-num-ctrl">
+			<topicmeta>
+				<keywords>
+					<keyword>3</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<!--<keydef keys="">
+			<topicmeta>
+				<keywords>
+					<keyword></keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>-->
+
+
+	</topicgroup>
+
+	<!-- ######### TECH DATA: ######## -->
+	<topicgroup>
+		<topicmeta>
+			<navtitle translate="no">Tech data</navtitle>
+		</topicmeta>
+
+		<keydef keys="gw-tanks">
+			<topicmeta>
+				<keywords>
+					<keyword>0</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="gw-tank-vol">
+			<topicmeta>
+				<keywords>
+					<keyword>0</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="gw-vents">
+			<topicmeta>
+				<keywords>
+					<keyword>0</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="gw-pumps">
+			<topicmeta>
+				<keywords>
+					<keyword>0</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="f-tanks">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="f-tank-vol">
+			<topicmeta>
+				<keywords>
+					<keyword>1500l</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="f-membs">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="f-vents">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="f-perms">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+		<keydef keys="sw-tanks">
+			<topicmeta>
+				<keywords>
+					<keyword>1</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="sw-tank-vol">
+			<topicmeta>
+				<keywords>
+					<keyword>1500l</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+
+		<!--<keydef keys="">
+			<topicmeta>
+				<keywords>
+					<keyword></keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>-->
+	</topicgroup>
+
+	<!-- ######### TECH DATA SHEET: ######## -->
+	<topicgroup>
+		<topicmeta>
+			<navtitle translate="no">Tech data sheet</navtitle>
+		</topicmeta>
+		<keydef keys="td_hight">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 1670mm</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_width">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 1490mm</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_depth">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 1880mm</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_max-weight">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 2850kg</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-gw-in">
+			<topicmeta>
+				<keywords>
+					<keyword>DN110</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-gw-over">
+			<topicmeta>
+				<keywords>
+					<keyword>DN110</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-sw-over">
+			<topicmeta>
+				<keywords>
+					<keyword>DN50</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-potw-back-nom">
+			<topicmeta>
+				<keywords>
+					<keyword>1&#8243; nominal</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-potw-back">
+			<topicmeta>
+				<keywords>
+					<keyword>20mm</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_connect-sw-transf">
+			<topicmeta>
+				<keywords>
+					<keyword>2&#8243;</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_membr-area">
+			<topicmeta>
+				<keywords>
+					<keyword>3,2m&#178;</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_capacity">
+			<topicmeta>
+				<keywords>
+					<keyword>ca. 1500l/day</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_vol-gw">
+			<topicmeta>
+				<keywords>
+					<keyword/>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_vol-f">
+			<topicmeta>
+				<keywords>
+					<keyword>approx. 1350l</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_vol-sw">
+			<topicmeta>
+				<keywords>
+					<keyword>approx. 1400l</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_supply-volt">
+			<topicmeta>
+				<keywords>
+					<keyword>230V/50Hz</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_backup-fuse">
+			<topicmeta>
+				<keywords>
+					<keyword>16A</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+		<keydef keys="td_max-power">
+			<topicmeta>
+				<keywords>
+					<keyword>approx. 300W</keyword>
+				</keywords>
+			</topicmeta>
+		</keydef>
+	</topicgroup>
+
+	<!-- ######### GRAPHICS: ######## -->
+	<topicgroup>
+		<topicmeta>
+			<navtitle translate="no">Graphics</navtitle>
+		</topicmeta>
+		<keydef keys="il_assembly" href="../graphics/il_ct1500.jpg" format="JPG" navtitle="Illustration CT1500">
+			<topicmeta>
+				<navtitle>Illustration CT1500</navtitle>
+				<linktext>Illustration CT1500</linktext>
+			</topicmeta>
+		</keydef>
+		<keydef keys="diagram" href="../graphics/diagram-ct1500.tiff" format="TIF" navtitle="Diagram CT1500">
+			<topicmeta>
+				<navtitle>Diagram CT1500</navtitle>
+				<linktext>Diagram CT1500</linktext>
+			</topicmeta>
+		</keydef>
+
+
+	</topicgroup>
+
+
+</map>

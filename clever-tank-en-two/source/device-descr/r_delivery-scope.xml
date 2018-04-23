@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="en-US" id="r_delivery-scope">
+	<title>Delivery scope</title>
+	<refbody>
+		<section>
+			<p>The grey water system <keyword keyref="prod-name"/> is delivered with the following components:</p>
+		</section>
+		<section otherprops="tank-gw">
+			<title>Group <keyword keyref="group-num-gw"/></title>
+			<ul>
+				<li><keyword keyref="gw-tanks"/> x tank <keyword keyref="gw-tank-vol"/></li>
+				<li><keyword keyref="gw-vents"/> x ventilation system</li>
+				<li><keyword keyref="gw-pumps"/> x permeate pump</li>
+			</ul>
+		</section>
+		<section otherprops="tank-gwf tank-f">
+			<title>Group <keyword keyref="group-num-f"/></title>
+			<ul>
+				<li><keyword keyref="f-tanks"/> x tank <keyword keyref="f-tank-vol"/></li>
+				<li><keyword keyref="f-membs"/> x membrane unit</li>
+				<li><keyword keyref="f-vents"/> x ventilation system</li>
+				<li><keyword keyref="f-perms"/> x permeate pump</li>
+			</ul>
+		</section>
+		<section>
+			<title>Group <keyword keyref="group-num-sw"/></title>
+			<ul>
+				<li><keyword keyref="sw-tanks"/> x tank <keyword keyref="sw-tank-vol"/></li>
+				<li>potable water backfeed</li>
+			</ul>
+		</section>
+		<section>
+			<title>Group <keyword keyref="group-num-ctrl"/></title>
+			<ul>
+				<li>control system</li>
+			</ul>
+		</section>
+	</refbody>
+</reference>

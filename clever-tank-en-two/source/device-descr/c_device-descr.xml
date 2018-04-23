@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept xml:lang="en-US" id="c_prod-description">
+	<title>Product description</title>
+	<conbody>
+		<p>The systems are intended for multi-stage treatment of grey water and provision of service water. The system comprises multiple assembly groups.</p>
+		<fig>
+			<image keyref="il_assembly"/>
+		</fig>
+		<ul>
+			<li otherprops="tank-gwf">
+				<p><b>Group <keyword keyref="group-num-gw"/>: </b>Collect, purify and filter grey water</p><p>In the first assembly group, grey water is collected, purified and
+				filtered.</p></li>
+			<li otherprops="tank-gw">
+				<p><b>Group <keyword keyref="group-num-gw"/>: </b>Collect and purify grey water</p><p>In the first assembly group, grey water is collected and purified.</p></li>
+			<li otherprops="tank-f">
+				<p><b>Group <keyword keyref="group-num-f"/>: </b>Grey water filtration</p><p>The second assembly group is for grey water filtration with the <keyword keyref="prod-series"/>
+					membrane modules.</p></li>
+			<li>
+				<p><b>Group <keyword keyref="group-num-sw"/>: </b>Service water storage</p><p>In this assembly group the filtered grey water is stored as service water. In addition, the last
+					tank has a potable water feed in order to ensure the supply of service water to the network.</p></li>
+			<li>
+				<p><b>Group <keyword keyref="group-num-ctrl"/>: </b>Control system</p><p><keyword keyref="prod-series"/> grey water systems are equipped with a fourth assembly group, a fully
+					automatic control system for regulating and monitoring. It is provided with a potential-free contact to integrate fault indications in the building management
+				system.</p></li>
+		</ul>
+		<p>Tank volumes can vary according to the type of system.</p>
+	</conbody>
+</concept>
