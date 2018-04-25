@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference xml:lang="de-DE" id="r_membr-ux-05.xml">
+	<title>Dokumentation Membraneinheit UX-05 </title>
+	<prolog>
+		<metadata>
+			<prodinfo>
+				<prodname/>
+				<vrmlist>
+					<vrm version="4500 10000"/>
+				</vrmlist>
+				<series><keyword keyref="prod-series"/></series>
+			</prodinfo>
+		</metadata>
+	</prolog>
+	<refbody>
+		<section>
+			<table id="tab_membr-ux-05" frame="all" rowsep="1" colsep="1">
+				<tgroup cols="3" align="left">
+					<colspec colname="c1" colnum="1" colwidth="1*"/>
+					<colspec colname="c2" colnum="2" colwidth="1*"/>
+					<colspec colname="c3" colnum="3" colwidth="1*"/>
+					<tbody>
+						<row>
+							<entry namest="c1" nameend="c3" align="left"><b>Membrandaten</b></entry>
+						</row>
+						<row>
+							<entry align="left">Membranfläche</entry>
+							<entry align="center">m<sup>2</sup></entry>
+							<entry align="center">4,8</entry>
+						</row>
+						<row>
+							<entry align="left">Material</entry>
+							<entry align="center"/>
+							<entry align="center">PES</entry>
+						</row>
+						<row>
+							<entry align="left">Trenngrenze</entry>
+							<entry align="center">kDa</entry>
+							<entry align="center">150</entry>
+						</row>
+						<row>
+							<entry align="left">Permeabilität, Reinwasser</entry>
+							<entry align="center">l/(m<sup>2</sup>*h*bar)</entry>
+							<entry align="center">> 300</entry>
+						</row>
+						<row>
+							<entry align="left">Filtrationsleistung, Belebtschl. (kommunal)</entry>
+							<entry align="center">l/(m<sup>2</sup>*h)</entry>
+							<entry align="center">15...25</entry>
+						</row>
+						<row>
+							<entry align="left">Betriebskonzentration, Belebtschl. (kommunal)</entry>
+							<entry align="center">g/l</entry>
+							<entry align="center">8...15</entry>
+						</row>
+						<row>
+							<entry align="left">Betriebsdifferenzdrücke</entry>
+							<entry align="center">mbar</entry>
+							<entry align="center">20...250</entry>
+						</row>
+						<row>
+							<entry align="left">Rückspüldruck</entry>
+							<entry align="center">mbar</entry>
+							<entry align="center">&lt; 50</entry>
+						</row>
+						<row>
+							<entry align="left">pH Betrieb</entry>
+							<entry align="center"/>
+							<entry align="center">4...9</entry>
+						</row>
+						<row>
+							<entry align="left">Temperaturbereiche</entry>
+							<entry align="center">°C</entry>
+							<entry align="center">5 - 50</entry>
+						</row>
+						<row>
+							<entry align="left">erwartete Standzeit</entry>
+							<entry align="center"/>
+							<entry align="center">zwischen 2 und 5 Jahren</entry>
+						</row>
+						<row>
+							<entry namest="c1" nameend="c3" align="left"><b>sonstige Moduldaten</b></entry>
+						</row>
+						<row>
+							<entry align="left">Taschenausführung</entry>
+							<entry align="center"/>
+							<entry align="center">Sandwich-Bauweise</entry>
+						</row>
+						<row>
+							<entry align="left">Verguss</entry>
+							<entry align="center"/>
+							<entry align="center">wasser- und abwasserbeständiger Kunststoff</entry>
+						</row>
+						<row>
+							<entry align="left">Modulgehäuse</entry>
+							<entry align="center"/>
+							<entry align="center">seitliche Schutzplatten, Kunststoff</entry>
+						</row>
+						<row>
+							<entry align="left">Außenmaße</entry>
+							<entry align="center"/>
+							<entry align="center"/>
+						</row>
+						<row>
+							<entry align="right">Breite</entry>
+							<entry align="center">mm</entry>
+							<entry align="center">152 ± 2,5</entry>
+						</row>
+						<row>
+							<entry align="right">Höhe</entry>
+							<entry align="center">mm</entry>
+							<entry align="center">600 ± 0,0</entry>
+						</row>
+						<row>
+							<entry align="right">Tiefe</entry>
+							<entry align="center">mm</entry>
+							<entry align="center">416 ± 2,5</entry>
+						</row>
+						<row>
+							<entry align="right">Tiefe mit Filtratleitung</entry>
+							<entry align="center">mm</entry>
+							<entry align="center">je nach Anschluss</entry>
+						</row>
+						<row>
+							<entry align="left">Trockengewicht</entry>
+							<entry align="center">kg</entry>
+							<entry align="center">16</entry>
+						</row>
+						<row>
+							<entry align="left">Nassgewicht</entry>
+							<entry align="center">kg</entry>
+							<entry align="center">ca. 41</entry>
+						</row>
+						<row>
+							<entry align="left">Anzahl Absaugungen vorne</entry>
+							<entry align="center">Stk</entry>
+							<entry align="center">1</entry>
+						</row>
+						<row>
+							<entry align="left">Höhe Aufströmkanal</entry>
+							<entry align="center">mm</entry>
+							<entry align="center">440</entry>
+						</row>
+						<row>
+							<entry align="left">Betriebsweisen Modul</entry>
+							<entry align="center"/>
+							<entry align="center">
+								<p>kontiflow</p>
+								<p>Puls / Pause</p>
+								<p>aktiv und gravity flow</p>
+							</entry>
+						</row>
+						<row>
+							<entry align="left">Filtratleitung</entry>
+							<entry align="center"/>
+							<entry align="center">1/2" IG</entry>
+						</row>
+						<row>
+							<entry namest="c1" nameend="c3" align="left"><b>Daten zur Membranbelüftung</b></entry>
+						</row>
+						<row>
+							<entry align="left">Belüfter</entry>
+							<entry align="center"/>
+							<entry align="center">mittelblasig</entry>
+						</row>
+						<row>
+							<entry align="left">Anströmfläche</entry>
+							<entry align="center">m<sup>2</sup></entry>
+							<entry align="center">0,05</entry>
+						</row>
+						<row>
+							<entry align="left">spezif. Luftbedarf / Anströmfläche</entry>
+							<entry align="center">m<sup>3</sup>/m<sup>2</sup></entry>
+							<entry align="center">100</entry>
+						</row>
+						<row>
+							<entry align="left">=> Luftbedarf / Modul</entry>
+							<entry align="center">m<sup>3</sup>/h</entry>
+							<entry align="center">5,0</entry>
+						</row>
+						<row>
+							<entry align="left">Druckverlust Belüfter</entry>
+							<entry align="center">mbar</entry>
+							<entry align="center">belüfterspezifisch</entry>
+						</row>
+						<row>
+							<entry namest="c1" nameend="c3" align="left"><b>chemische Reinigung</b></entry>
+						</row>
+						<row>
+							<entry align="left">Reinigung</entry>
+							<entry align="center"/>
+							<entry align="center">Laugen, Oxidationsmittel, Tenside, Säuren</entry>
+						</row>
+						<row>
+							<entry align="left">Reinigungsintervall</entry>
+							<entry align="center"/>
+							<entry align="center">zwischen 3 - 12 Monaten</entry>
+						</row>
+						<row>
+							<entry align="left">Verbrauch an Reinigungslösung je Modul</entry>
+							<entry align="center">ltr</entry>
+							<entry align="center">ca. 15,5</entry>
+						</row>
+						<row>
+							<entry align="left">pH Reinigung</entry>
+							<entry align="center"/>
+							<entry align="center">2...11</entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</section>
+		<section>
+			<fig>
+				<image keyref="il_membr-ux-05" placement="break" scalefit="yes"/>
+			</fig>
+		</section>
+	</refbody>
+</reference>

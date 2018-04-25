@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="i3v_rjb_41b">
+	<title>Assembling group <keyword keyref="group-num-f"/></title>
+	<taskbody>
+		<steps>
+			<step>
+				<cmd>Connect the grey water filtration overflow to the on-site wastewater line.</cmd>
+			</step>
+			<step otherprops="tank-f-connect">
+				<cmd>Mount the corresponding connecting lines for venting on top of the filtering tanks (<keyword keyref="f-tanks"/> pcs), and the lines for levelling at the front of the tanks.</cmd>
+			</step>
+			<step>
+				<cmd>Connect vent.</cmd>
+				<info><p>In addition, the assembly group with tank <keyword keyref="group-num-before-f"/> must be vented via an accompanying connection to assembly group <keyword keyref="group-num-f" /><ph otherprops="tank-f-connect"> i.e the first tank in this group to the last tank in group <keyword keyref="group-num-before-f"/></ph>.</p></info>
+			</step>
+			<step>
+				<cmd>Connect the tube of the feed pump<ph otherprops="tank-gw-connect"> (<keyword keyref="gw-pumps"/> pcs)</ph>. </cmd>
+			</step>
+			<step>
+				<cmd>The tubes of the filtration pump<ph otherprops="tank-f-connect"> (<keyword keyref="f-perms"/> pcs)</ph> must be connected to the nozzles of assembly group <keyword
+						keyref="group-num-after-f"/>, provided for that purpose (observe designation/colour coding).</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

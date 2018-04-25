@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd"> 
+<map xml:lang="en-US">
+	<title>Appendix</title>
+	<topicref href="r_appendix.xml" navtitle="Appendix" format="dita" type="reference">
+		<topicref href="r_registration-installation.xml" navtitle="Installation registration form" format="dita" type="reference"/>
+		<topicref href="r_registration-water-utilities.xml" navtitle="Utility registration form" format="dita" type="reference"/>
+		<!-- Membranes docs added in rootmap with processing-role ressource-only -->
+		<topicref keyref="r_docs-membr"/>
+		<topicref keys="r_docs-vents" href="r_doc-maintenance-filter.xml" navtitle="Documentation of air filter" format="dita" type="reference"/>
+		<topicref keys="r_docs-perms" href="r_doc-permeatpump.xml" navtitle="Documentation of permeat pump" format="dita" type="reference"/>
+		<topicref keys="r_docs-dwf" href="r_doc-potable-water-refill.xml" navtitle="Documentation of potable water feed" format="dita" type="reference"/>
+		<topicref keys="r_feedpump" href="r_feedpump.xml" navtitle="Feed pump" format="dita" type="reference"/>
+	</topicref>
+</map>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task xml:lang="en-US" id="hxq_xjb_41b">
+	<title>Connecting the system to the control panel</title>
+	<taskbody>
+		<prereq><p>Make sure all indicated connections have been made by a professional.</p></prereq>
+		<steps>
+			<step>
+				<cmd>Connect the cables of assembly groups <keyword keyref="group-num-before-sw"/> and <keyword keyref="group-num-sw"/> to the control panel (see Circuit diagram/ Terminal
+					diagram, observe designation).</cmd>
+			</step>
+			<step>
+				<cmd>Fill the system with grey water.</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>
