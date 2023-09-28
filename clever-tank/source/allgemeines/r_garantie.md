@@ -10,7 +10,7 @@ keyword: garantie gewährleistung
 
 Innerhalb des Gewährleistungszeitraums beseitigen wir kostenlos Funktionsstörungen, die auf Fabrikations- oder Materialfehler zurückzuführen sind. Das sind Störungen trotz nachweislich vorschriftsmäßigem Anschluss, sachgemäßer Behandlung und Beachtung der Betriebs- und Installationsanleitungen.
 
-Garantie Ansprechpartner
+Garantie Ansprechpartner:
 
 | Land         | Partner               | Telefon             |  
 | ------------ | :-------------------: | ------------------: |  
